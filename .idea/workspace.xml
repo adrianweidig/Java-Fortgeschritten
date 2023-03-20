@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,9 +52,9 @@
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DateiEingabeTest">
-    <configuration name="DateiEingabeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.applikationen.DateiEingabeTest" />
+  <component name="RunManager" selected="Application.AppBankDatei">
+    <configuration name="AppBankDatei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.applikationen.AppBankDatei" />
       <module name="Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DateiEingabeTest" />
+        <item itemvalue="Application.AppBankDatei" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
       </list>
@@ -102,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679298990969</updated>
-      <workItem from="1679298992074" duration="15701000" />
+      <workItem from="1679298992074" duration="18177000" />
     </task>
     <servers />
   </component>

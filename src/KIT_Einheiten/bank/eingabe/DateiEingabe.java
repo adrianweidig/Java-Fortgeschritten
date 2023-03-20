@@ -28,7 +28,7 @@ public class DateiEingabe implements IEingabe {
     private Date aktuellesDatum = Date.from(LocalDate.now().atStartOfDay(ZoneId.systemDefault()).toInstant());
     private ArrayList<String[]> zeilen_konten = new ArrayList<>();
     private ArrayList<String[]> zeilen_buchungen = new ArrayList<>();
-    
+
     /***********************/
     /**** Konstruktor ******/
     /***********************/
@@ -65,6 +65,8 @@ public class DateiEingabe implements IEingabe {
 
     @Override
     public HashMap<Integer, KontoStamm> konten() {
+        this.readFile();
+
         HashMap<Integer, KontoStamm> konten = new HashMap<>();
 
         for (int zaehler = 0; zaehler < this.zeilen_konten.size(); zaehler++) {

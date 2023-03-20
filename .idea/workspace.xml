@@ -14,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +52,20 @@
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.DateiEingabeTest">
+    <configuration name="DateiEingabeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.applikationen.DateiEingabeTest" />
+      <module name="Kit_Fortgeschritten_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KIT_Einheiten.applikationen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Kit_Fortgeschritten_1" />
@@ -75,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateiEingabeTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
       </list>
@@ -88,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679298990969</updated>
-      <workItem from="1679298992074" duration="7707000" />
+      <workItem from="1679298992074" duration="13557000" />
     </task>
     <servers />
   </component>

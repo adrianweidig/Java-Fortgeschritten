@@ -12,7 +12,7 @@ public class KontoStamm {
     /***********************/
     /****** Attribute ******/
     /***********************/
-    private ArrayList<Buchung> buchungen;
+    private ArrayList<Buchung> buchungen = new ArrayList<>();
     private Date datum;
     private String kontoinhaber;
     private int kontonummer;
@@ -35,7 +35,18 @@ public class KontoStamm {
     }
 
     public String getInfo() {
-        return null;
+        String gesamt = "";
+        String kontoinformationen = "";
+
+        String str_kontonummer = "Kontonr\t: " + this.kontonummer + "\n";
+        String str_kontoart = "Art\t\t: " + this.getClass().getSimpleName() + "\n";
+        String str_kontoinhaber = "Inhaber\t: " + this.kontoinhaber + "\n";
+        String str_saldo = "Saldo\t: " + this.saldo + "\n";
+
+        kontoinformationen = str_kontonummer + str_kontoart + str_kontoinhaber + str_saldo;
+        gesamt = kontoinformationen;
+
+        return gesamt;
     }
 
     public void updateSaldo(Buchung buchung) {

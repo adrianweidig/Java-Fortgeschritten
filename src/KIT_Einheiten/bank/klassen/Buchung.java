@@ -3,6 +3,8 @@ package KIT_Einheiten.bank.klassen;
 import java.util.Date;
 
 /**
+ * Datenhaltungsklasse für Buchungsinformationen
+ *
  * @since 20.03.2023
  * @author Adrian Weidig
  */

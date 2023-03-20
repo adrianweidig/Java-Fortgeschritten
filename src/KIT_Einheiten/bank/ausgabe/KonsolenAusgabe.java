@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * Ausgabe via Konsole
+ *
  * @author Adrian Weidig
  * @since 20.03.2023
  */
@@ -24,11 +26,23 @@ public class KonsolenAusgabe implements IAusgabe {
     /***********************/
     /****** Methoden *******/
     /***********************/
+
+    /**
+     *
+     * @param konto
+     * @param buchung
+     * @param fehler
+     */
     @Override
     public void fehler(KontoStamm konto, Buchung buchung, String fehler) {
 
     }
 
+    /**
+     * Iteriert über eine HashMap mit erstellten Konten und gibt diese aus.
+     *
+     * @param konten Die auszugebenden Konten
+     */
     @Override
     public void konten(HashMap<Integer, KontoStamm> konten) {
         for (Map.Entry<Integer, KontoStamm> konto : konten.entrySet()) {

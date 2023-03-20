@@ -1,6 +1,9 @@
 package KIT_Einheiten.bank.klassen;
 
 /**
+ * Darlehenskonto, welches im Vergleich zum KontoStamm
+ * zusätzlich die Rate innehat.
+ *
  * @author Adrian Weidig
  * @since 20.03.2023
  */
@@ -17,6 +20,12 @@ public class DarlehensKonto extends KontoStamm {
     /***********************/
     /****** Methoden *******/
     /***********************/
+
+    /**
+     *
+     * @param buchung
+     * @return
+     */
     @Override
     public String buchungspruefung(Buchung buchung) {
         return null;

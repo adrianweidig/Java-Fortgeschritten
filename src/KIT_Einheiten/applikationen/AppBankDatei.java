@@ -7,8 +7,13 @@ import KIT_Einheiten.bank.schnittstellen.IAusgabe;
 import KIT_Einheiten.bank.schnittstellen.IEingabe;
 
 import java.util.HashMap;
-import java.util.Map;
 
+/**
+ * Testdatei / Maindatei für das Bankprojekt
+ *
+ * @author Adrian Weidig
+ * @since 20.03.2023
+ */
 public class AppBankDatei {
     public static void main(String[] args) {
         IEingabe eingabeTest = new DateiEingabe();

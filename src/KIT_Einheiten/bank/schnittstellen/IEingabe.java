@@ -7,11 +7,23 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
+ * Interface für die verschiedenen Möglichkeiten der Eingabe
+ *
  * @author Adrian Weidig
  * @since 20.03.2023
  */
 public interface IEingabe {
+    /**
+     *
+     * @return
+     */
     ArrayList<Buchung> buchungen();
 
+    /**
+     * Definiert die grundsätzliche Eingabemöglichkeit diverser Konten
+     * und der Möglichkeit diese Konten zu verarbeiten.
+     *
+     * @return HashMap aller Konten
+     */
     HashMap<Integer, KontoStamm> konten();
 }

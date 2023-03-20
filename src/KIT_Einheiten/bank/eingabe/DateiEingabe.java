@@ -16,6 +16,8 @@ import java.util.HashMap;
 import java.util.Locale;
 
 /**
+ * Einlesen von Informationen über eine Textdatei
+ *
  * @author Adrian Weidig
  * @since 20.03.2023
  */
@@ -37,6 +39,12 @@ public class DateiEingabe implements IEingabe {
     /****** Methoden *******/
     /***********************/
 
+    /**
+     * Liest die Bankdaten.txt anhand eines ABSOLUTEN Pfades ein.
+     * Anschließend werden die Zeilen zerlegt und das so entstehende
+     * Array entweder in die Liste der Buchungen oder der zu erstellenden
+     * Konten eingegliedert.
+     */
     public void readFile() {
         try {
             BufferedReader br = new BufferedReader(new FileReader("E:\\Programmierung\\Java\\Kit_Fortgeschritten_1\\src\\KIT_Einheiten\\bank\\resources\\Bankdaten.txt"));
@@ -58,11 +66,25 @@ public class DateiEingabe implements IEingabe {
         }
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public ArrayList<Buchung> buchungen() {
         return null;
     }
 
+    /**
+     * Initialisiert die Liste der Buchungen und Konten.
+     * Siehe {@link DateiEingabe#readFile()}
+     *
+     * Iteriert anschließend über die Liste der zu erstellenden Konten,
+     * erzeugt die zugehörigen Objekte und gibt eine anhand der Kontonummer
+     * durchnummerierte HashMap der Objekte zurück.
+     *
+     * @return Alle Konten
+     */
     @Override
     public HashMap<Integer, KontoStamm> konten() {
         this.readFile();
@@ -90,7 +112,7 @@ public class DateiEingabe implements IEingabe {
                     giroKonto.setDispo(Double.parseDouble(kontoString[3]));
                     giroKonto.setSollzins(Double.parseDouble(kontoString[4]));
 
-                    konten.put(zaehler, giroKonto);
+                    konten.put(kontonummer, giroKonto);
                     break;
                 case "NeuesSparkonto":
                     try {
@@ -108,7 +130,7 @@ public class DateiEingabe implements IEingabe {
                         sparKonto.setKuenddatum(formatter.parse(kontoString[4]));
                         sparKonto.setHabenzins(Double.parseDouble(kontoString[5]));
 
-                        konten.put(zaehler, sparKonto);
+                        konten.put(kontonummer, sparKonto);
                     } catch (ParseException e) {
                         throw new RuntimeException(e);
                     }
@@ -126,7 +148,7 @@ public class DateiEingabe implements IEingabe {
                     // Kontospezifische Bearbeitung
                     darlehensKonto.setRate(Double.parseDouble(kontoString[3]));
 
-                    konten.put(zaehler, darlehensKonto);
+                    konten.put(kontonummer, darlehensKonto);
                     break;
             }
         }

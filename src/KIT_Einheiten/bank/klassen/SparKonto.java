@@ -3,6 +3,10 @@ package KIT_Einheiten.bank.klassen;
 import java.util.Date;
 
 /**
+ * Sparkonto, welches im Vergleich zum KontoStamm
+ * zusätzlich den Habenzins, Kündbetrag und das
+ * Kündigungsdatum innehat.
+ *
  * @author Adrian Weidig
  * @since 20.03.2023
  */
@@ -21,6 +25,12 @@ public class SparKonto extends KontoStamm {
     /***********************/
     /****** Methoden *******/
     /***********************/
+
+    /**
+     *
+     * @param buchung
+     * @return
+     */
     @Override
     public String buchungspruefung(Buchung buchung) {
         return null;

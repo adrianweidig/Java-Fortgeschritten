@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
+ * Basis Kontoklasse
+ *
  * @author Adrian Weidig
  * @since 20.03.2023
  */
@@ -26,14 +28,32 @@ public class KontoStamm {
     /****** Methoden *******/
     /***********************/
 
+    /**
+     *
+     * @param buchung
+     * @return
+     */
     public String buchungspruefung(Buchung buchung) {
         return null;
     }
 
+    /**
+     *
+     * @param kontostamm
+     * @param buchung
+     * @param fehler
+     * @return
+     */
     public String getFehler(KontoStamm kontostamm, Buchung buchung, String fehler) {
         return null;
     }
 
+    /**
+     * Setzt alle vorhandenen Kontoinformationen zusammen
+     * und gibt diese als ein String zurück.
+     *
+     * @return Kontoinformationen
+     */
     public String getInfo() {
         String gesamt = "";
         String kontoinformationen = "";
@@ -49,6 +69,10 @@ public class KontoStamm {
         return gesamt;
     }
 
+    /**
+     *
+     * @param buchung
+     */
     public void updateSaldo(Buchung buchung) {
 
     }

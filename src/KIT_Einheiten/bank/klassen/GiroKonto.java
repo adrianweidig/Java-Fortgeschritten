@@ -1,6 +1,9 @@
 package KIT_Einheiten.bank.klassen;
 
 /**
+ * Girokonto, welches im Vergleich zum KontoStamm
+ * zusätzlich den Dispobetrag, sowie Sollzins innehat.
+ *
  * @since 20.03.2023
  * @author Adrian Weidig
  */
@@ -18,6 +21,12 @@ public class GiroKonto extends KontoStamm {
     /***********************/
     /****** Methoden *******/
     /***********************/
+
+    /**
+     *
+     * @param buchung
+     * @return
+     */
     @Override
     public String buchungspruefung(Buchung buchung) {
         return null;

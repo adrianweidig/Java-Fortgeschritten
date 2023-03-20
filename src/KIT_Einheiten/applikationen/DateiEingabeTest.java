@@ -9,6 +9,7 @@ import java.util.Map;
 public class DateiEingabeTest {
     public static void main(String[] args) {
         DateiEingabe eingabeTest = new DateiEingabe();
+        eingabeTest.readFile();
 
         HashMap<Integer, KontoStamm> konten = eingabeTest.konten();
 

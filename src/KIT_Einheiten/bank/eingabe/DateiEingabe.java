@@ -4,7 +4,6 @@ import KIT_Einheiten.bank.klassen.*;
 import KIT_Einheiten.bank.schnittstellen.IEingabe;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
@@ -25,7 +24,11 @@ public class DateiEingabe implements IEingabe {
     /***********************/
     /****** Attribute ******/
     /***********************/
-
+    private SimpleDateFormat formatter = new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN);
+    private Date aktuellesDatum = Date.from(LocalDate.now().atStartOfDay(ZoneId.systemDefault()).toInstant());
+    private ArrayList<String[]> zeilen_konten = new ArrayList<>();
+    private ArrayList<String[]> zeilen_buchungen = new ArrayList<>();
+    
     /***********************/
     /**** Konstruktor ******/
     /***********************/
@@ -33,54 +36,62 @@ public class DateiEingabe implements IEingabe {
     /***********************/
     /****** Methoden *******/
     /***********************/
+
+    public void readFile() {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("E:\\Programmierung\\Java\\Kit_Fortgeschritten_1\\src\\KIT_Einheiten\\bank\\resources\\Bankdaten.txt"));
+
+            while (br.ready()) {
+                String zeile = br.readLine();
+                String[] zeile_zerlegt = zeile.split(";");
+
+                if (zeile_zerlegt[0].contains("Neues")) {
+                    this.zeilen_konten.add(zeile_zerlegt);
+                } else if (zeile_zerlegt[0].contains("buchung")) {
+                    this.zeilen_buchungen.add(zeile_zerlegt);
+                }
+            }
+
+            br.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
     public ArrayList<Buchung> buchungen() {
         return null;
     }
 
-
-    /**
-     * Hilfsfunktionen für konten Methode
-     **/
-
     @Override
     public HashMap<Integer, KontoStamm> konten() {
-
         HashMap<Integer, KontoStamm> konten = new HashMap<>();
 
-        try {
-            ArrayList<String> zeilen = new ArrayList<>();
+        for (int zaehler = 0; zaehler < this.zeilen_konten.size(); zaehler++) {
+            String[] kontoString = this.zeilen_konten.get(zaehler);
 
-            BufferedReader br = new BufferedReader(new FileReader("E:\\Programmierung\\Java\\Kit_Fortgeschritten_1\\src\\KIT_Einheiten\\bank\\resources\\Bankdaten.txt"));
+            int kontonummer = Integer.parseInt(kontoString[1]);
+            String kontoinhaber = kontoString[2];
 
-            while (br.ready()) {
-                zeilen.add(br.readLine());
-            }
+            switch (kontoString[0]) {
+                case "NeuesGiroKonto":
+                    GiroKonto giroKonto = new GiroKonto();
 
-            for (int zaehler = 0; zaehler < zeilen.size(); zaehler++) {
-                String[] kontoString = zeilen.get(zaehler).split(";");
-                Date aktuellesDatum = Date.from(LocalDate.now().atStartOfDay(ZoneId.systemDefault()).toInstant());
-                int kontonummer = Integer.parseInt(kontoString[1]);
-                String kontoinhaber = kontoString[2];
+                    // Allgemeine Kontobearbeitung
+                    giroKonto.setKontonummer(kontonummer);
+                    giroKonto.setKontoinhaber(kontoinhaber);
 
-                switch (kontoString[0]) {
-                    case "NeuesGiroKonto":
-                        GiroKonto giroKonto = new GiroKonto();
+                    giroKonto.setDatum(aktuellesDatum);
+                    giroKonto.setSaldo(0);
 
-                        // Allgemeine Kontobearbeitung
-                        giroKonto.setKontonummer(kontonummer);
-                        giroKonto.setKontoinhaber(kontoinhaber);
+                    // Kontospezifische Bearbeitung
+                    giroKonto.setDispo(Double.parseDouble(kontoString[3]));
+                    giroKonto.setSollzins(Double.parseDouble(kontoString[4]));
 
-                        giroKonto.setDatum(aktuellesDatum);
-                        giroKonto.setSaldo(0);
-
-                        // Kontospezifische Bearbeitung
-                        giroKonto.setDispo(Double.parseDouble(kontoString[3]));
-                        giroKonto.setSollzins(Double.parseDouble(kontoString[4]));
-
-                        konten.put(zaehler, giroKonto);
-                        break;
-                    case "NeuesSparkonto":
+                    konten.put(zaehler, giroKonto);
+                    break;
+                case "NeuesSparkonto":
+                    try {
                         SparKonto sparKonto = new SparKonto();
 
                         // Allgemeine Kontobearbeitung
@@ -91,42 +102,36 @@ public class DateiEingabe implements IEingabe {
                         sparKonto.setSaldo(0);
 
                         // Kontospezifische Bearbeitung
-                        sparKonto.setHabenzins(Double.parseDouble(kontoString[3]));
-                        sparKonto.setKuenddatum(new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN).parse(kontoString[4]));
-                        sparKonto.setKuendbetrag(Double.parseDouble(kontoString[5]));
+                        sparKonto.setKuendbetrag(Double.parseDouble(kontoString[3]));
+                        sparKonto.setKuenddatum(formatter.parse(kontoString[4]));
+                        sparKonto.setHabenzins(Double.parseDouble(kontoString[5]));
 
                         konten.put(zaehler, sparKonto);
-                        break;
-                    case "NeuesDarlehenskonto":
-                        DarlehensKonto darlehensKonto = new DarlehensKonto();
+                    } catch (ParseException e) {
+                        throw new RuntimeException(e);
+                    }
+                    break;
+                case "NeuesDarlehenskonto":
+                    DarlehensKonto darlehensKonto = new DarlehensKonto();
 
-                        // Allgemeine Kontobearbeitung
-                        darlehensKonto.setKontonummer(kontonummer);
-                        darlehensKonto.setKontoinhaber(kontoinhaber);
+                    // Allgemeine Kontobearbeitung
+                    darlehensKonto.setKontonummer(kontonummer);
+                    darlehensKonto.setKontoinhaber(kontoinhaber);
 
-                        darlehensKonto.setDatum(aktuellesDatum);
-                        darlehensKonto.setSaldo(0);
+                    darlehensKonto.setDatum(aktuellesDatum);
+                    darlehensKonto.setSaldo(0);
 
-                        // Kontospezifische Bearbeitung
-                        darlehensKonto.setRate(Double.parseDouble(kontoString[3]));
+                    // Kontospezifische Bearbeitung
+                    darlehensKonto.setRate(Double.parseDouble(kontoString[3]));
 
-                        konten.put(zaehler, darlehensKonto);
-                        break;
-                    case "buchung":
-                        break;
-                }
+                    konten.put(zaehler, darlehensKonto);
+                    break;
             }
-
-            br.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
-            throw new RuntimeException(e);
         }
 
         return konten;
     }
-    /***********************/
-    /** Getter und Setter **/
-    /***********************/
+/***********************/
+/** Getter und Setter **/
+/***********************/
 }

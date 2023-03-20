@@ -1,14 +1,15 @@
-package KIT_Einheiten.bank.klassen;
+package Vorlagen;
 
 /**
- * @author Adrian Weidig
+ *
+ *
  * @since 20.03.2023
+ * @author Adrian Weidig
  */
-public class DarlehensKonto extends KontoStamm {
+public class KlassenVorlage {
     /***********************/
     /****** Attribute ******/
     /***********************/
-    private double rate;
 
     /***********************/
     /**** Konstruktor ******/
@@ -17,19 +18,8 @@ public class DarlehensKonto extends KontoStamm {
     /***********************/
     /****** Methoden *******/
     /***********************/
-    @Override
-    public String buchungspruefung(Buchung buchung) {
-        return null;
-    }
 
     /***********************/
     /** Getter und Setter **/
     /***********************/
-    public double getRate() {
-        return rate;
-    }
-
-    public void setRate(double rate) {
-        this.rate = rate;
-    }
 }

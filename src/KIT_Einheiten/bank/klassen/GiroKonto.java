@@ -1,5 +1,9 @@
 package KIT_Einheiten.bank.klassen;
 
+/**
+ * @since 20.03.2023
+ * @author Adrian Weidig
+ */
 public class GiroKonto extends KontoStamm {
     /***********************/
     /****** Attribute ******/
@@ -14,6 +18,10 @@ public class GiroKonto extends KontoStamm {
     /***********************/
     /****** Methoden *******/
     /***********************/
+    @Override
+    public String buchungspruefung(Buchung buchung) {
+        return null;
+    }
 
 
     /***********************/

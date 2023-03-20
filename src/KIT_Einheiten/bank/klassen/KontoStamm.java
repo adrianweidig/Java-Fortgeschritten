@@ -1,8 +1,13 @@
+
 package KIT_Einheiten.bank.klassen;
 
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * @author Adrian Weidig
+ * @since 20.03.2023
+ */
 public class KontoStamm {
     /***********************/
     /****** Attribute ******/
@@ -20,6 +25,22 @@ public class KontoStamm {
     /***********************/
     /****** Methoden *******/
     /***********************/
+
+    public String buchungspruefung(Buchung buchung) {
+        return null;
+    }
+
+    public String getFehler(KontoStamm kontostamm, Buchung buchung, String fehler) {
+        return null;
+    }
+
+    public String getInfo() {
+        return null;
+    }
+
+    public void updateSaldo(Buchung buchung) {
+
+    }
 
 
     /***********************/

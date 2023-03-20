@@ -2,6 +2,10 @@ package KIT_Einheiten.bank.klassen;
 
 import java.util.Date;
 
+/**
+ * @since 20.03.2023
+ * @author Adrian Weidig
+ */
 public class Buchung {
     /***********************/
     /****** Attribute ******/
@@ -17,7 +21,6 @@ public class Buchung {
     /***********************/
     /****** Methoden *******/
     /***********************/
-
 
     /***********************/
     /** Getter und Setter **/

@@ -1,0 +1,9 @@
+NeuesGiroKonto;1;Hugo Scheckerich;1000;10.0
+NeuesSparkonto;2;Hugo Scheckerich;0;01.01.2017;5.0
+NeuesDarlehenskonto;3;Hugo Scheckerich;300
+buchung;1;-100
+buchung;1;-1000
+buchung;2;-100
+buchung;2;100
+buchung;3;100
+buchung;3;300

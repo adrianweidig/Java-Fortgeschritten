@@ -2,6 +2,10 @@ package KIT_Einheiten.bank.klassen;
 
 import java.util.Date;
 
+/**
+ * @author Adrian Weidig
+ * @since 20.03.2023
+ */
 public class SparKonto extends KontoStamm {
     /***********************/
     /****** Attribute ******/
@@ -17,7 +21,10 @@ public class SparKonto extends KontoStamm {
     /***********************/
     /****** Methoden *******/
     /***********************/
-
+    @Override
+    public String buchungspruefung(Buchung buchung) {
+        return null;
+    }
 
     /***********************/
     /** Getter und Setter **/

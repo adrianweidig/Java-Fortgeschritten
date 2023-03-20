@@ -30,8 +30,8 @@ public class KontoStamm {
 
     /**
      *
-     * @param buchung
-     * @return
+     * @param buchung  , not null
+     * @return  , not null
      */
     public String buchungspruefung(Buchung buchung) {
         return null;
@@ -39,10 +39,10 @@ public class KontoStamm {
 
     /**
      *
-     * @param kontostamm
-     * @param buchung
-     * @param fehler
-     * @return
+     * @param kontostamm  , not null
+     * @param buchung  , not null
+     * @param fehler  , not null
+     * @return  , not null
      */
     public String getFehler(KontoStamm kontostamm, Buchung buchung, String fehler) {
         return null;
@@ -52,7 +52,7 @@ public class KontoStamm {
      * Setzt alle vorhandenen Kontoinformationen zusammen
      * und gibt diese als ein String zurück.
      *
-     * @return Kontoinformationen
+     * @return Kontoinformationen, not null
      */
     public String getInfo() {
         String gesamt = "";
@@ -71,7 +71,7 @@ public class KontoStamm {
 
     /**
      *
-     * @param buchung
+     * @param buchung  , not null
      */
     public void updateSaldo(Buchung buchung) {
 

@@ -27,9 +27,9 @@ public class FXAusgabe implements IAusgabe {
 
     /**
      *
-     * @param konto
-     * @param buchung
-     * @param fehler
+     * @param konto  , not null
+     * @param buchung  , not null
+     * @param fehler  , not null
      */
     @Override
     public void fehler(KontoStamm konto, Buchung buchung, String fehler) {
@@ -38,7 +38,7 @@ public class FXAusgabe implements IAusgabe {
 
     /**
      *
-     * @param konten
+     * @param konten  , not null
      */
     @Override
     public void konten(HashMap<Integer, KontoStamm> konten) {

@@ -17,16 +17,16 @@ public interface IAusgabe {
 
     /**
      *
-     * @param konto
-     * @param buchung
-     * @param fehler
+     * @param konto  , not null
+     * @param buchung  , not null
+     * @param fehler  , not null
      */
     void fehler(KontoStamm konto, Buchung buchung, String fehler);
 
     /**
      * Definiert eine grundsätzliche Ausgabe aller Konten.
      *
-     * @param konten HashMap aller Konten
+     * @param konten HashMap aller Konten, not null
      */
     void konten(HashMap<Integer, KontoStamm> konten);
 

@@ -29,7 +29,7 @@ public class DatenbankEingabe implements IEingabe {
 
     /**
      *
-     * @return
+     * @return  , not null
      */
     @Override
     public ArrayList<Buchung> buchungen() {
@@ -38,7 +38,7 @@ public class DatenbankEingabe implements IEingabe {
 
     /**
      *
-     * @return
+     * @return  , not null
      */
     @Override
     public HashMap<Integer, KontoStamm> konten() {

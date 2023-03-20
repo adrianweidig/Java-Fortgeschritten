@@ -23,8 +23,8 @@ public class DarlehensKonto extends KontoStamm {
 
     /**
      *
-     * @param buchung
-     * @return
+     * @param buchung  , not null
+     * @return  , not null
      */
     @Override
     public String buchungspruefung(Buchung buchung) {

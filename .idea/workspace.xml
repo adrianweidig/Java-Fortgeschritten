@@ -55,7 +55,7 @@
   <component name="RunManager" selected="Application.AppBankDatei">
     <configuration name="AppBankDatei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.applikationen.AppBankDatei" />
-      <module name="Kit_Fortgeschritten_1" />
+      <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="KIT_Einheiten.applikationen.*" />
@@ -68,20 +68,33 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Kit_Fortgeschritten_1" />
+      <module name="Java_Kit_Fortgeschritten_1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.test" />
-      <module name="Kit_Fortgeschritten_1" />
+      <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Java_Kit_Fortgeschritten_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Java_Kit_Fortgeschritten_1" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679298990969</updated>
-      <workItem from="1679298992074" duration="19783000" />
+      <workItem from="1679298992074" duration="20731000" />
     </task>
     <servers />
   </component>

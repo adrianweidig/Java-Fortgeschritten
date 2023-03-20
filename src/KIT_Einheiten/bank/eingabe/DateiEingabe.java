@@ -68,7 +68,7 @@ public class DateiEingabe implements IEingabe {
 
     /**
      *
-     * @return
+     * @return  , not null
      */
     @Override
     public ArrayList<Buchung> buchungen() {
@@ -83,7 +83,7 @@ public class DateiEingabe implements IEingabe {
      * erzeugt die zugehörigen Objekte und gibt eine anhand der Kontonummer
      * durchnummerierte HashMap der Objekte zurück.
      *
-     * @return Alle Konten
+     * @return Alle Konten, not null
      */
     @Override
     public HashMap<Integer, KontoStamm> konten() {

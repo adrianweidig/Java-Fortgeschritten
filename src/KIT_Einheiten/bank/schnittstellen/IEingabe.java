@@ -15,7 +15,7 @@ import java.util.HashMap;
 public interface IEingabe {
     /**
      *
-     * @return
+     * @return  , not null
      */
     ArrayList<Buchung> buchungen();
 
@@ -23,7 +23,7 @@ public interface IEingabe {
      * Definiert die grundsätzliche Eingabemöglichkeit diverser Konten
      * und der Möglichkeit diese Konten zu verarbeiten.
      *
-     * @return HashMap aller Konten
+     * @return HashMap aller Konten, not null
      */
     HashMap<Integer, KontoStamm> konten();
 }

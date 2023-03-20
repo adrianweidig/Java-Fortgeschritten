@@ -29,9 +29,9 @@ public class KonsolenAusgabe implements IAusgabe {
 
     /**
      *
-     * @param konto
-     * @param buchung
-     * @param fehler
+     * @param konto  , not null
+     * @param buchung  , not null
+     * @param fehler  , not null
      */
     @Override
     public void fehler(KontoStamm konto, Buchung buchung, String fehler) {
@@ -41,7 +41,7 @@ public class KonsolenAusgabe implements IAusgabe {
     /**
      * Iteriert über eine HashMap mit erstellten Konten und gibt diese aus.
      *
-     * @param konten Die auszugebenden Konten
+     * @param konten Die auszugebenden Konten, not null
      */
     @Override
     public void konten(HashMap<Integer, KontoStamm> konten) {

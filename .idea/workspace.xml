@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppBankDatei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppBankDatei.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DateiEingabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DateiEingabe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/DarlehensKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/DarlehensKonto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/GiroKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/GiroKonto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/SparKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/SparKonto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8 (2)&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programmierung/Java/JDKs/jre1.8.0_111&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8 (2)",
+    "last_opened_file_path": "E:/Programmierung/Java/JDKs/jre1.8.0_111",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
@@ -112,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679298990969</updated>
       <workItem from="1679298992074" duration="22130000" />
-      <workItem from="1679381871676" duration="7525000" />
+      <workItem from="1679381871676" duration="7789000" />
     </task>
     <servers />
   </component>
@@ -130,6 +124,9 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -145,7 +142,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java</url>
-          <line>93</line>
+          <line>95</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

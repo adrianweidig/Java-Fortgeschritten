@@ -23,8 +23,11 @@ public class GiroKonto extends KontoStamm {
     /***********************/
 
     /**
-     * @param buchung , not null
-     * @return , not null
+     * Überprüft, ob die Buchung gem. Richtlinien valide ist.
+     * Überschreiben aufgrund angepasster Richtlinien.
+     *
+     * @param buchung zu verbuchender Betrag, not null
+     * @return True oder False als String, not null
      */
     @Override
     public String buchungspruefung(Buchung buchung) {

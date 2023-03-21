@@ -1,0 +1,4 @@
+*.html linguist-detectable=false
+*.c linguist-detectable=false
+*.css linguist-detectable=false
+*.cpp linguist-detectable=false

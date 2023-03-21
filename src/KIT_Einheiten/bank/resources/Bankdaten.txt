@@ -7,3 +7,4 @@ buchung;2;-100
 buchung;2;100
 buchung;3;100
 buchung;3;300
+

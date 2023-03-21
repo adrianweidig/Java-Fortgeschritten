@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumente/Übung Java V7.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dokumente/Übung Java V8.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs/sqlite-jdbc-3.40.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/app/DBApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/klassen/DBZugriff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/resources/DBStart.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6b1fbee-f94b-4c7c-92e3-d118f0e54af1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6b1fbee-f94b-4c7c-92e3-d118f0e54af1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumente/Übung Java V6.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumente/Übung Java V6.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppBankDatei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppBankDatei.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DateiEingabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DateiEingabe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/DarlehensKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/DarlehensKonto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/GiroKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/GiroKonto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/SparKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/SparKonto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Kit_Fortgeschritten_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Kit_Fortgeschritten_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/test.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bankdaten.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bankdaten.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +52,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8 (2)",
-    "last_opened_file_path": "E:/Programmierung/Java/JDKs/jre1.8.0_111",
+    "last_opened_file_path": "E:/Programmierung/Java/Kit_Fortgeschritten_1/Externe JARs/sqlite-jdbc-3.40.0.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
@@ -64,22 +65,42 @@
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "sqlserver",
+      "mysql",
+      "sqlserver.localdb",
       "sqlite"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JDBC\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Externe JARs" />
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JDBC\resources" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppBankDatei">
+  <component name="RunManager" selected="Application.DBApp">
     <configuration name="AppBankDatei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.applikationen.AppBankDatei" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="KIT_Einheiten.applikationen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.JDBC.app.DBApp" />
+      <module name="Java_Kit_Fortgeschritten_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KIT_Einheiten.JDBC.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DBApp" />
         <item itemvalue="Application.AppBankDatei" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
@@ -124,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679298990969</updated>
       <workItem from="1679298992074" duration="22130000" />
-      <workItem from="1679381871676" duration="12024000" />
+      <workItem from="1679381871676" duration="22508000" />
     </task>
     <servers />
   </component>

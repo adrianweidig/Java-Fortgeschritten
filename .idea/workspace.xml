@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java" afterDir="false" />
-    </list>
+    <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679298990969</updated>
       <workItem from="1679298992074" duration="22130000" />
-      <workItem from="1679381871676" duration="7789000" />
+      <workItem from="1679381871676" duration="8132000" />
     </task>
     <servers />
   </component>
@@ -131,18 +129,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/GiroKonto.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/DarlehensKonto.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java</url>
-          <line>95</line>
+          <line>97</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

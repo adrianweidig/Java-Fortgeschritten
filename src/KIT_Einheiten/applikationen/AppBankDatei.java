@@ -22,5 +22,6 @@ public class AppBankDatei {
         HashMap<Integer, KontoStamm> konten = eingabeTest.konten();
 
         ausgabeTest.konten(konten);
+        eingabeTest.buchungen();
     }
 }

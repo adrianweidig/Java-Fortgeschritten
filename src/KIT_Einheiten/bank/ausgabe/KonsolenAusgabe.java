@@ -28,9 +28,8 @@ public class KonsolenAusgabe implements IAusgabe {
     /***********************/
 
     /**
-     *
-     * @param konto  , not null
-     * @param buchung  , not null
+     * @param konto   , not null
+     * @param buchung , not null
      * @param fehler  , not null
      */
     @Override
@@ -48,6 +47,11 @@ public class KonsolenAusgabe implements IAusgabe {
         for (Map.Entry<Integer, KontoStamm> konto : konten.entrySet()) {
             System.out.println(konto.getValue().getInfo());
         }
+
+        // Alternative lediglich Zugriff auf die Werte:
+        // for (KontoStamm konto : konten.values()) {
+        //     System.out.println(konto.getInfo());
+        // }
     }
     /***********************/
     /** Getter und Setter **/

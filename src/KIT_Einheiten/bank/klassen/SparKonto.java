@@ -27,13 +27,20 @@ public class SparKonto extends KontoStamm {
     /***********************/
 
     /**
-     *
-     * @param buchung  , not null
-     * @return  , not null
+     * @param buchung , not null
+     * @return , not null
      */
     @Override
     public String buchungspruefung(Buchung buchung) {
-        return null;
+        String ergebnis = "False";
+
+        if ((this.getSaldo() + buchung.getBetrag()) > 0) {
+            ergebnis = "True";
+        } else {
+            System.out.println("Buchung in Höhe " + buchung.getBetrag() + " für das Konto " + this.getKontonummer() + " ( " + this.getClass().getSimpleName() + " ) konnte nicht durchgeführt werden!\n ----> Konto ist nicht gedeckt\n");
+        }
+
+        return ergebnis;
     }
 
     /***********************/

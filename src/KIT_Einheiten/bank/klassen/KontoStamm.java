@@ -1,8 +1,10 @@
 
 package KIT_Einheiten.bank.klassen;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Locale;
 
 /**
  * Basis Kontoklasse
@@ -20,6 +22,8 @@ public class KontoStamm {
     private int kontonummer;
     private double saldo;
 
+    private SimpleDateFormat formatter = new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN);
+
     /***********************/
     /**** Konstruktor ******/
     /***********************/
@@ -29,20 +33,26 @@ public class KontoStamm {
     /***********************/
 
     /**
-     *
-     * @param buchung  , not null
-     * @return  , not null
+     * @param buchung , not null
+     * @return , not null
      */
     public String buchungspruefung(Buchung buchung) {
-        return null;
+        String ergebnis = "False";
+
+        if ((this.saldo + buchung.getBetrag()) > 0) {
+            ergebnis = "True";
+        } else {
+            System.out.println("Buchung in Höhe" + buchung.getBetrag() + "für das Konto " + this.getKontonummer() + " ( " + this.getClass().getSimpleName() + " ) konnte nicht durchgeführt werden!\n");
+        }
+
+        return ergebnis;
     }
 
     /**
-     *
-     * @param kontostamm  , not null
-     * @param buchung  , not null
-     * @param fehler  , not null
-     * @return  , not null
+     * @param kontostamm , not null
+     * @param buchung    , not null
+     * @param fehler     , not null
+     * @return , not null
      */
     public String getFehler(KontoStamm kontostamm, Buchung buchung, String fehler) {
         return null;
@@ -52,7 +62,7 @@ public class KontoStamm {
      * Setzt alle vorhandenen Kontoinformationen zusammen
      * und gibt diese als ein String zurück.
      *
-     * @return Kontoinformationen, not null
+     * @return die gesamten Kontoinformationen als String, not null
      */
     public String getInfo() {
         String gesamt = "";
@@ -66,15 +76,25 @@ public class KontoStamm {
         kontoinformationen = str_kontonummer + str_kontoart + str_kontoinhaber + str_saldo;
         gesamt = kontoinformationen;
 
+        String str_buchungen = "-----Zugehörige Buchungen----------------------\n";
+
+        for(Buchung buchung : this.buchungen) {
+            str_buchungen += "\n" + formatter.format(buchung.getDatum()) + "\t" + buchung.getBetrag();
+        }
+
+        gesamt += str_buchungen + "\n";
+
         return gesamt;
     }
 
     /**
-     *
-     * @param buchung  , not null
+     * @param buchung , not null
      */
     public void updateSaldo(Buchung buchung) {
-
+        if (this.buchungspruefung(buchung).equals("True")) {
+            this.saldo += buchung.getBetrag();
+            this.buchungen.add(buchung);
+        }
     }
 
 

@@ -67,12 +67,24 @@ public class DateiEingabe implements IEingabe {
     }
 
     /**
+     * Initialisiert alle Buchungen aus der entsprechenden Textdatei.
      *
-     * @return  , not null
+     * @return  die Liste aller Buchungen, not null
      */
     @Override
     public ArrayList<Buchung> buchungen() {
-        return null;
+        ArrayList<Buchung> buchungen = new ArrayList<>();
+
+        for (String[] zeile : zeilen_buchungen) {
+            Buchung buchung = new Buchung();
+            buchung.setKontonummer(Integer.parseInt(zeile[1]));
+            buchung.setBetrag(Integer.parseInt(zeile[2]));
+            buchung.setDatum(aktuellesDatum);
+
+            buchungen.add(buchung);
+        }
+
+        return buchungen;
     }
 
     /**
@@ -153,6 +165,10 @@ public class DateiEingabe implements IEingabe {
             }
         }
 
+        for(Buchung buchung : buchungen()) {
+            KontoStamm konto = konten.get(buchung.getKontonummer());
+            konto.updateSaldo(buchung);
+        }
         return konten;
     }
 /***********************/

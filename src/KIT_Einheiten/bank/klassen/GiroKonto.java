@@ -4,8 +4,8 @@ package KIT_Einheiten.bank.klassen;
  * Girokonto, welches im Vergleich zum KontoStamm
  * zusätzlich den Dispobetrag, sowie Sollzins innehat.
  *
- * @since 20.03.2023
  * @author Adrian Weidig
+ * @since 20.03.2023
  */
 public class GiroKonto extends KontoStamm {
     /***********************/
@@ -23,13 +23,20 @@ public class GiroKonto extends KontoStamm {
     /***********************/
 
     /**
-     *
-     * @param buchung  , not null
-     * @return  , not null
+     * @param buchung , not null
+     * @return , not null
      */
     @Override
     public String buchungspruefung(Buchung buchung) {
-        return null;
+        String ergebnis = "False";
+
+        if ((this.getSaldo() + buchung.getBetrag()) > this.dispo*-1) {
+            ergebnis = "True";
+        } else {
+            System.out.println("Buchung in Höhe " + buchung.getBetrag() + " für das Konto " + this.getKontonummer() + " ( " + this.getClass().getSimpleName() + " ) konnte nicht durchgeführt werden!\n ----> Dispo limit ist überschritten\n");
+        }
+
+        return ergebnis;
     }
 
 

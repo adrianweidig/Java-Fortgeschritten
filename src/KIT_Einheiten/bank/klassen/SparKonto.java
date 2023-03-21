@@ -31,16 +31,14 @@ public class SparKonto extends KontoStamm {
      * Überschreiben aufgrund angepasster Richtlinien.
      *
      * @param buchung zu verbuchender Betrag, not null
-     * @return True oder False als String, not null
+     * @return Nichts oder den Fehlerstring, not null
      */
     @Override
     public String buchungspruefung(Buchung buchung) {
-        String ergebnis = "False";
+        String ergebnis = "";
 
-        if ((this.getSaldo() + buchung.getBetrag()) > 0) {
-            ergebnis = "True";
-        } else {
-            System.out.println("Buchung in Höhe " + buchung.getBetrag() + " für das Konto " + this.getKontonummer() + " ( " + this.getClass().getSimpleName() + " ) konnte nicht durchgeführt werden!\n ----> Konto ist nicht gedeckt\n");
+        if (this.getSaldo() + buchung.getBetrag() < 0) {
+            ergebnis = " ----> Konto ist nicht gedeckt\n";
         }
 
         return ergebnis;

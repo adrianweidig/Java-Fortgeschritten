@@ -26,16 +26,14 @@ public class DarlehensKonto extends KontoStamm {
      * Überschreiben aufgrund angepasster Richtlinien.
      *
      * @param buchung zu verbuchender Betrag, not null
-     * @return True oder False als String, not null
+     * @return Nichts oder den Fehlerstring, not null
      */
     @Override
     public String buchungspruefung(Buchung buchung) {
-        String ergebnis = "False";
+        String ergebnis = "";
 
-        if (this.rate == buchung.getBetrag()) {
-            ergebnis = "True";
-        } else {
-            System.out.println("Buchung in Höhe " + buchung.getBetrag() + " für das Konto " + this.getKontonummer() + " ( " + this.getClass().getSimpleName() + " ) konnte nicht durchgeführt werden!\n ----> Buchungsbetrag muss der Rate entsprechen\n");
+        if (this.rate != buchung.getBetrag()) {
+            ergebnis = " ----> Buchungsbetrag muss der Rate entsprechen\n";
         }
 
         return ergebnis;

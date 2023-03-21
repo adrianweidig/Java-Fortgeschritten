@@ -28,13 +28,15 @@ public class KonsolenAusgabe implements IAusgabe {
     /***********************/
 
     /**
-     * @param konto   , not null
-     * @param buchung , not null
-     * @param fehler  , not null
+     * Zeigt die Fehlerausgabe an, falls eine Buchung nicht den Richtlinien entspricht.
+     *
+     * @param konto   das zugehörige Konto, not null
+     * @param buchung die zugehörige Buchung, not null
+     * @param fehler  der Fehlerstring, not null
      */
     @Override
     public void fehler(KontoStamm konto, Buchung buchung, String fehler) {
-
+        System.out.println("Buchung in Höhe " + buchung.getBetrag() + " für das Konto " + konto.getKontonummer() + " ( " + konto.getClass().getSimpleName() + " ) konnte nicht durchgeführt werden!\n" + fehler);
     }
 
     /**

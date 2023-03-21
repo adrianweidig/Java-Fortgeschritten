@@ -27,16 +27,14 @@ public class GiroKonto extends KontoStamm {
      * Überschreiben aufgrund angepasster Richtlinien.
      *
      * @param buchung zu verbuchender Betrag, not null
-     * @return True oder False als String, not null
+     * @return Nichts oder den Fehlerstring, not null
      */
     @Override
     public String buchungspruefung(Buchung buchung) {
-        String ergebnis = "False";
+        String ergebnis = "";
 
-        if ((this.getSaldo() + buchung.getBetrag()) > this.dispo*-1) {
-            ergebnis = "True";
-        } else {
-            System.out.println("Buchung in Höhe " + buchung.getBetrag() + " für das Konto " + this.getKontonummer() + " ( " + this.getClass().getSimpleName() + " ) konnte nicht durchgeführt werden!\n ----> Dispo limit ist überschritten\n");
+        if (this.getSaldo() + buchung.getBetrag() < this.dispo*-1) {
+            ergebnis = " ----> Dispo limit ist überschritten\n";
         }
 
         return ergebnis;

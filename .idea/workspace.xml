@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="" />
+    <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dokumente/Übung Java V7.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumente/Übung Java V6.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumente/Übung Java V6.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppBankDatei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppBankDatei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DateiEingabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DateiEingabe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/DarlehensKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/DarlehensKonto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/GiroKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/GiroKonto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/SparKonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/SparKonto.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +48,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8 (2)",
     "last_opened_file_path": "E:/Programmierung/Java/JDKs/jre1.8.0_111",
@@ -46,6 +60,12 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver",
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -104,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679298990969</updated>
       <workItem from="1679298992074" duration="22130000" />
-      <workItem from="1679381871676" duration="8132000" />
+      <workItem from="1679381871676" duration="12024000" />
     </task>
     <servers />
   </component>
@@ -124,16 +144,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/KontoStamm.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

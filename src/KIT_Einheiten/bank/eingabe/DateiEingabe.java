@@ -165,10 +165,7 @@ public class DateiEingabe implements IEingabe {
             }
         }
 
-        for(Buchung buchung : buchungen()) {
-            KontoStamm konto = konten.get(buchung.getKontonummer());
-            konto.updateSaldo(buchung);
-        }
+
         return konten;
     }
 /***********************/

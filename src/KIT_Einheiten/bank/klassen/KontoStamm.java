@@ -36,15 +36,13 @@ public class KontoStamm {
      * Überprüft, ob die Buchung gem. Richtlinien valide ist.
      *
      * @param buchung zu verbuchender Betrag, not null
-     * @return True oder False als String, not null
+     * @return Nichts oder den Fehlerstring, not null
      */
     public String buchungspruefung(Buchung buchung) {
-        String ergebnis = "False";
+        String ergebnis = "FEHLER";
 
-        if ((this.saldo + buchung.getBetrag()) > 0) {
-            ergebnis = "True";
-        } else {
-            System.out.println("Buchung in Höhe" + buchung.getBetrag() + "für das Konto " + this.getKontonummer() + " ( " + this.getClass().getSimpleName() + " ) konnte nicht durchgeführt werden!\n");
+        if (this.saldo + buchung.getBetrag() > 0) {
+            ergebnis = "";
         }
 
         return ergebnis;
@@ -80,7 +78,7 @@ public class KontoStamm {
 
         String str_buchungen = "-----Zugehörige Buchungen----------------------\n";
 
-        for(Buchung buchung : this.buchungen) {
+        for (Buchung buchung : this.buchungen) {
             str_buchungen += "\n" + formatter.format(buchung.getDatum()) + "\t" + buchung.getBetrag();
         }
 
@@ -95,10 +93,8 @@ public class KontoStamm {
      * @param buchung zu verbuchender Betrag, not null
      */
     public void updateSaldo(Buchung buchung) {
-        if (this.buchungspruefung(buchung).equals("True")) {
-            this.saldo += buchung.getBetrag();
-            this.buchungen.add(buchung);
-        }
+        this.saldo += buchung.getBetrag();
+        this.buchungen.add(buchung);
     }
 
 

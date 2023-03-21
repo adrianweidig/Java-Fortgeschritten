@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumente/Übung Java V8.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Externe JARs/sqlite-jdbc-3.40.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/app/DBApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/klassen/DBZugriff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/resources/DBStart.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c6b1fbee-f94b-4c7c-92e3-d118f0e54af1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c6b1fbee-f94b-4c7c-92e3-d118f0e54af1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Kit_Fortgeschritten_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Kit_Fortgeschritten_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/test.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bankdaten.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bankdaten.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679298990969</updated>
       <workItem from="1679298992074" duration="22130000" />
-      <workItem from="1679381871676" duration="22508000" />
+      <workItem from="1679381871676" duration="23043000" />
     </task>
     <servers />
   </component>

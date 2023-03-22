@@ -13,6 +13,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Locale;
 
+/**
+ * Testdatei / Maindatei für die Datenbank im Bankprojekt.
+ *
+ * @author Adrian Weidig
+ * @since 22.03.2023
+ */
 public class AppDatenbankLaden {
     public static void main(String[] args) {
         try {
@@ -34,12 +40,14 @@ public class AppDatenbankLaden {
             // SQLite spezifisch: Setzt die Autoincrement sequence ALLER Tabellen auf 0
             datenbank.befehl("UPDATE sqlite_sequence SET seq = 0;");
 
+            // Leeren der Tabellen bei wiederholtem Aufruf des Programmes
             datenbank.befehl("DELETE FROM Buchung;");
             datenbank.befehl("DELETE FROM Darlehenskonto;");
             datenbank.befehl("DELETE FROM Buchung;");
             datenbank.befehl("DELETE FROM Sparkonto;");
             datenbank.befehl("DELETE FROM Kontostamm");
 
+            // Befüllen der Konten-Tabellen
             for (KontoStamm konto : konten.values()) {
                 String kontoart = konto.getClass().getSimpleName();
 
@@ -70,6 +78,7 @@ public class AppDatenbankLaden {
                 datenbank.befehl(sql);
             }
 
+            // Befüllen der Buchungstabelle
             for (Buchung buchung : buchungen) {
                 String sql = "INSERT INTO Buchung(Kontonummer, Betrag, Datum) VALUES('" + buchung.getKontonummer() + "', '" + buchung.getBetrag() + "', '" + formatter.format(buchung.getDatum()) + "');";
                 datenbank.befehl(sql);

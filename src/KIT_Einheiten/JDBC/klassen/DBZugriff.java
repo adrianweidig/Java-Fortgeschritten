@@ -4,8 +4,27 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * Klasse für geregelten Zugriff auf Datenbanken.
+ *
+ * @author Adrian Weidig
+ * @since 20.03.2023
+ */
 public class DBZugriff {
+
+    /***********************/
+    /****** Attribute ******/
+    /***********************/
+
     private Connection conn = null;
+
+    /***********************/
+    /**** Konstruktor ******/
+    /***********************/
+
+    /***********************/
+    /****** Methoden *******/
+    /***********************/
 
     public Connection connectionAufbauen() {
         String db_name = "DBStart.db";
@@ -22,4 +41,10 @@ public class DBZugriff {
 
         return conn;
     }
+
+    /***********************/
+    /** Getter und Setter **/
+    /***********************/
+
+
 }

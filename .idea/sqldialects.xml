@@ -2,6 +2,9 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/c6b1fbee-f94b-4c7c-92e3-d118f0e54af1/console.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/BankdbSQLQuery.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/KIT_Einheiten/JDBC/resources/DBStartSQLQuery.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/BankdbSQLQuery.sql" dialect="SQLite" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>

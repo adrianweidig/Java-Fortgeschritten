@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dokumente/Übung Java V10.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppDatenbankLaden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/DBZugriff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d74b5b0-0a58-4a1b-8d23-d36240259bad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2d74b5b0-0a58-4a1b-8d23-d36240259bad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/resources/DBStart.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/resources/DBStart.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DateiEingabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DateiEingabe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppDatenbankLaden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppDatenbankLaden.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bank.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bank.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +165,7 @@
       <workItem from="1679298992074" duration="22130000" />
       <workItem from="1679381871676" duration="23636000" />
       <workItem from="1679468627826" duration="2705000" />
-      <workItem from="1679471447886" duration="10627000" />
+      <workItem from="1679471447886" duration="12967000" />
     </task>
     <servers />
   </component>

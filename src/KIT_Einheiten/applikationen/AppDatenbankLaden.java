@@ -31,12 +31,14 @@ public class AppDatenbankLaden {
             DBZugriff datenbank = new DBZugriff();
             Connection verbindung = datenbank.connectionAufbauen();
 
-            datenbank.befehl("DELETE FROM Buchung");
-            datenbank.befehl("DELETE FROM Kontostamm");
-            datenbank.befehl("DELETE FROM Darlehenskonto");
-            datenbank.befehl("DELETE FROM Girokonto");
-            datenbank.befehl("DELETE FROM Sparkonto");
+            // SQLite spezifisch: Setzt die Autoincrement sequence ALLER Tabellen auf 0
+            datenbank.befehl("UPDATE sqlite_sequence SET seq = 0;");
 
+            datenbank.befehl("DELETE FROM Buchung;");
+            datenbank.befehl("DELETE FROM Darlehenskonto;");
+            datenbank.befehl("DELETE FROM Buchung;");
+            datenbank.befehl("DELETE FROM Sparkonto;");
+            datenbank.befehl("DELETE FROM Kontostamm");
 
             for (KontoStamm konto : konten.values()) {
                 String kontoart = konto.getClass().getSimpleName();
@@ -49,17 +51,17 @@ public class AppDatenbankLaden {
                     case "DarlehensKonto":
                         // INSERT INTO Darlehenskonto VALUES(lfdnr, kontonummer, rate);
                         DarlehensKonto darlehensKonto = (DarlehensKonto) konto;
-                        sql = "INSERT INTO Darlehenskonto VALUES('" + darlehensKonto.getKontonummer() + "', '" + darlehensKonto.getKontonummer() + "', '" + darlehensKonto.getRate() + "');";
+                        sql = "INSERT INTO Darlehenskonto(Kontonummer, Rate) VALUES('" + darlehensKonto.getKontonummer() + "', '" + darlehensKonto.getRate() + "');";
                         break;
                     case "GiroKonto":
                         // INSERT INTO Girokonto VALUES(lfdnr, kontonummer, dispo, sollzins);
                         GiroKonto giroKonto = (GiroKonto) konto;
-                        sql = "INSERT INTO Girokonto VALUES('" + giroKonto.getKontonummer() + "', '" + giroKonto.getKontonummer() + "', '" + giroKonto.getDispo() + "', '" + giroKonto.getSollzins() + "');";
+                        sql = "INSERT INTO Girokonto(Kontonummer, Dispo, Sollzins) VALUES('" + giroKonto.getKontonummer() + "', '" + giroKonto.getDispo() + "', '" + giroKonto.getSollzins() + "');";
                         break;
                     case "SparKonto":
                         // INSERT INTO Darlehenskonto VALUES(lfdnr, kontonummer, habenzins, kuendbetrag, kuenddatum);
                         SparKonto sparKonto = (SparKonto) konto;
-                        sql = "INSERT INTO Sparkonto VALUES('" + sparKonto.getKontonummer() + "', '" + sparKonto.getKontonummer() + "', '" + sparKonto.getHabenzins() + "', '" + sparKonto.getKuendbetrag() + "', '" + formatter.format(sparKonto.getKuenddatum()) + "');";
+                        sql = "INSERT INTO Sparkonto(Kontonummer, Habenzins, Kuendbetrag, Kuenddatum) VALUES('" + sparKonto.getKontonummer() + "', '" + sparKonto.getHabenzins() + "', '" + sparKonto.getKuendbetrag() + "', '" + formatter.format(sparKonto.getKuenddatum()) + "');";
                         break;
                     default:
                         sql = "";
@@ -68,7 +70,7 @@ public class AppDatenbankLaden {
                 datenbank.befehl(sql);
             }
 
-            for(Buchung buchung : buchungen) {
+            for (Buchung buchung : buchungen) {
                 String sql = "INSERT INTO Buchung(Kontonummer, Betrag, Datum) VALUES('" + buchung.getKontonummer() + "', '" + buchung.getBetrag() + "', '" + formatter.format(buchung.getDatum()) + "');";
                 datenbank.befehl(sql);
             }

@@ -168,6 +168,7 @@ public class DateiEingabe implements IEingabe {
 
         return konten;
     }
+
 /***********************/
 /** Getter und Setter **/
 /***********************/

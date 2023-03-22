@@ -1470,130 +1470,126 @@
       <DasType>INTEGER|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="519" parent="505" name="Dispo">
+    <column id="519" parent="505" name="Rate">
       <DasType>REAL|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="520" parent="505" name="Sollzins">
-      <DasType>REAL|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <foreign-key id="521" parent="505">
+    <foreign-key id="520" parent="505">
       <ColNames>Kontonummer</ColNames>
       <RefColNames>Kontonummer</RefColNames>
       <RefTableName>KontoStamm</RefTableName>
     </foreign-key>
-    <key id="522" parent="505">
+    <key id="521" parent="505">
       <ColNames>lfdNr</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="523" parent="506" name="lfdNr">
+    <column id="522" parent="506" name="lfdNr">
       <AutoIncrement>1</AutoIncrement>
       <DasType>INTEGER|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="524" parent="506" name="Kontonummer">
+    <column id="523" parent="506" name="Kontonummer">
       <DasType>INTEGER|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="525" parent="506" name="Dispo">
+    <column id="524" parent="506" name="Dispo">
       <DasType>REAL|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="526" parent="506" name="Sollzins">
+    <column id="525" parent="506" name="Sollzins">
       <DasType>REAL|0s</DasType>
       <Position>4</Position>
     </column>
-    <foreign-key id="527" parent="506">
+    <foreign-key id="526" parent="506">
       <ColNames>Kontonummer</ColNames>
       <RefColNames>Kontonummer</RefColNames>
       <RefTableName>KontoStamm</RefTableName>
     </foreign-key>
-    <key id="528" parent="506">
+    <key id="527" parent="506">
       <ColNames>lfdNr</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="529" parent="507" name="Kontonummer">
+    <column id="528" parent="507" name="Kontonummer">
       <DasType>INTEGER|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="530" parent="507" name="Kontoinhaber">
+    <column id="529" parent="507" name="Kontoinhaber">
       <DasType>TEXT|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="531" parent="507" name="AnlageDatum">
+    <column id="530" parent="507" name="AnlageDatum">
       <DasType>TEXT|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="532" parent="507" name="Saldo">
+    <column id="531" parent="507" name="Saldo">
       <DasType>REAL|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="533" parent="507" name="Kontoart">
+    <column id="532" parent="507" name="Kontoart">
       <DasType>TEXT|0s</DasType>
       <Position>5</Position>
     </column>
-    <key id="534" parent="507">
+    <key id="533" parent="507">
       <ColNames>Kontonummer</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="535" parent="508" name="lfdNr">
+    <column id="534" parent="508" name="lfdNr">
       <AutoIncrement>1</AutoIncrement>
       <DasType>INTEGER|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="536" parent="508" name="Kontonummer">
+    <column id="535" parent="508" name="Kontonummer">
       <DasType>INTEGER|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="537" parent="508" name="Habenzins">
+    <column id="536" parent="508" name="Habenzins">
       <DasType>REAL|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="538" parent="508" name="Kuendbetrag">
+    <column id="537" parent="508" name="Kuendbetrag">
       <DasType>REAL|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="539" parent="508" name="Kuenddatum">
+    <column id="538" parent="508" name="Kuenddatum">
       <DasType>TEXT|0s</DasType>
       <Position>5</Position>
     </column>
-    <foreign-key id="540" parent="508">
+    <foreign-key id="539" parent="508">
       <ColNames>Kontonummer</ColNames>
       <RefColNames>Kontonummer</RefColNames>
       <RefTableName>KontoStamm</RefTableName>
     </foreign-key>
-    <key id="541" parent="508">
+    <key id="540" parent="508">
       <ColNames>lfdNr</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="542" parent="509" name="type">
+    <column id="541" parent="509" name="type">
       <DasType>TEXT|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="543" parent="509" name="name">
+    <column id="542" parent="509" name="name">
       <DasType>TEXT|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="544" parent="509" name="tbl_name">
+    <column id="543" parent="509" name="tbl_name">
       <DasType>TEXT|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="545" parent="509" name="rootpage">
+    <column id="544" parent="509" name="rootpage">
       <DasType>INT|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="546" parent="509" name="sql">
+    <column id="545" parent="509" name="sql">
       <DasType>TEXT|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="547" parent="510" name="name">
+    <column id="546" parent="510" name="name">
       <Position>1</Position>
     </column>
-    <column id="548" parent="510" name="seq">
+    <column id="547" parent="510" name="seq">
       <Position>2</Position>
     </column>
   </database-model>

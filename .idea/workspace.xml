@@ -5,112 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/app/class-use/DBApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/app/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/app/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/app/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/klassen/DBZugriff.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/klassen/class-use/DBZugriff.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/klassen/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumente/Praktische Quellen.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dokumente/Übung Java V9.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/Bank.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/BankDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/BankdbSQLQuery.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/SQLMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/resources/DBStartSQLQuery.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bank.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/BankdbSQLQuery.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7b8c6e46-e1e3-41a0-ac30-08d68d62b5d0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7b8c6e46-e1e3-41a0-ac30-08d68d62b5d0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/AppBankDatei.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/AppBankDatei.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/class-use/AppBankDatei.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/class-use/AppBankDatei.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/applikationen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/FXAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/FXAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/class-use/FXAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/class-use/FXAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/class-use/KonsolenAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/class-use/KonsolenAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/ausgabe/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/DateiEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/DateiEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/DatenbankEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/DatenbankEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/class-use/DateiEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/class-use/DateiEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/class-use/DatenbankEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/class-use/DatenbankEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/eingabe/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/Buchung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/Buchung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/DarlehensKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/DarlehensKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/GiroKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/GiroKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/KontoStamm.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/KontoStamm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/SparKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/SparKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/Buchung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/Buchung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/DarlehensKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/DarlehensKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/GiroKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/GiroKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/KontoStamm.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/KontoStamm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/SparKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/class-use/SparKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/klassen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/IAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/IAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/IEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/IEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/class-use/IAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/class-use/IAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/class-use/IEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/class-use/IEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/bank/schnittstellen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/KlassenVorlage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/app/DBApp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/Vorlagen/KlassenVorlage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/Vorlagen/KlassenVorlage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/Vorlagen/class-use/KlassenVorlage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/Vorlagen/class-use/KlassenVorlage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/Vorlagen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/Vorlagen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/Vorlagen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/Vorlagen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/Vorlagen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/Vorlagen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/Vorlagen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/Vorlagen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/class-use/KlassenVorlage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/klassen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/package-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/klassen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/klassen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dokumentation/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dokumentation/KIT_Einheiten/JDBC/app/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/Bank.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/BankDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/BankdbSQLQuery.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/SQL/SQLMain.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/app/DBApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/app/DBApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/klassen/DBZugriff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/klassen/DBZugriff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/resources/DBStart.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JDBC/resources/DBStart.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +152,7 @@
       <workItem from="1679298992074" duration="22130000" />
       <workItem from="1679381871676" duration="23636000" />
       <workItem from="1679468627826" duration="2705000" />
-      <workItem from="1679471447886" duration="6979000" />
+      <workItem from="1679471447886" duration="7200000" />
     </task>
     <servers />
   </component>

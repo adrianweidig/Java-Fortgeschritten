@@ -34,18 +34,14 @@ public class DBZugriff {
      *
      * @return die Datenbankverbindung.
      */
-    public Connection connectionAufbauen() {
+    public Connection connectionAufbauen() throws ClassNotFoundException, SQLException {
         String db_name = "DBStart.db";
         String db_path = "E:\\Programmierung\\Java\\Kit_Fortgeschritten_1\\src\\KIT_Einheiten\\JDBC\\resources\\" + db_name;
 
-        try {
-            Class.forName("org.sqlite.JDBC");
-            sql_verbindung = DriverManager.getConnection("jdbc:sqlite:" + db_path);
-        } catch (ClassNotFoundException | SQLException ce) {
-            System.err.println(ce.getClass().getName() + ": " + ce.getMessage());
-            System.exit(0);
-        }
-        System.out.println("Datenbank erfolgreich geöffnet");
+
+        Class.forName("org.sqlite.JDBC");
+        sql_verbindung = DriverManager.getConnection("jdbc:sqlite:" + db_path);
+
 
         return sql_verbindung;
     }

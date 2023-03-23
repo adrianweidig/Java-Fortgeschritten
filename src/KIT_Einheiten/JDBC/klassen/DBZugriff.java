@@ -33,6 +33,8 @@ public class DBZugriff {
      * Baut die Verbindung zur Datenbank auf.
      *
      * @return die Datenbankverbindung.
+     * @throws ClassNotFoundException , wenn JDBC nicht gefunden werden kann.
+     * @throws SQLException , wenn falsche SQL Verbindungssyntax.
      */
     public Connection connectionAufbauen() throws ClassNotFoundException, SQLException {
         String db_name = "DBStart.db";

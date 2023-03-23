@@ -2,6 +2,7 @@ package KIT_Einheiten.applikationen;
 
 import KIT_Einheiten.bank.ausgabe.KonsolenAusgabe;
 import KIT_Einheiten.bank.eingabe.DateiEingabe;
+import KIT_Einheiten.bank.eingabe.DatenbankEingabe;
 import KIT_Einheiten.bank.klassen.Buchung;
 import KIT_Einheiten.bank.klassen.KontoStamm;
 import KIT_Einheiten.bank.schnittstellen.IAusgabe;
@@ -18,18 +19,24 @@ import java.util.HashMap;
  */
 public class AppBankDatei {
     public static void main(String[] args) {
-        IEingabe eingabeTest = new DateiEingabe();
+        // Je nach Bedarf ob via Datenbank oder direkt über die Datei jeweilige IEingabe auskommentieren
+        // IEingabe eingabeTest = new DateiEingabe();
+        IEingabe eingabe_datenbank = new DatenbankEingabe();
+
         IAusgabe ausgabeTest = new KonsolenAusgabe();
 
-        HashMap<Integer, KontoStamm> konten = eingabeTest.konten();
 
-        ArrayList<Buchung> buchungen = eingabeTest.buchungen();
+        //HashMap<Integer, KontoStamm> konten = eingabeTest.konten();
+        HashMap<Integer, KontoStamm> konten = eingabe_datenbank.konten();
 
-        for(Buchung buchung : buchungen) {
+        //ArrayList<Buchung> buchungen = eingabeTest.buchungen();
+        ArrayList<Buchung> buchungen = eingabe_datenbank.buchungen();
+
+        for (Buchung buchung : buchungen) {
             KontoStamm konto = konten.get(buchung.getKontonummer());
             String fehler = konto.buchungspruefung(buchung);
 
-            if(fehler.isEmpty()){
+            if (fehler.isEmpty()) {
                 konto.updateSaldo(buchung);
             } else {
                 ausgabeTest.fehler(konto, buchung, fehler);

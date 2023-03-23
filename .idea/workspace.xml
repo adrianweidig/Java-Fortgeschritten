@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Apps/Beispiel_2_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Apps/Beispiel_3_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Apps/Beispiel_4_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Apps/Beispiel_5_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/CounterThread_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/CounterThread_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/DeadLock_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/DeadLock_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/InterruptThread_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/SyncThread_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/CounterThread_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/CounterThread_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/CounterThread_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Multithreading/Klassen/CounterThread_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppBankDatei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppBankDatei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppDatenbankLaden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppDatenbankLaden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Generics_Uebungen/Generics_Uebung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Generics_Uebungen/Generics_Uebung.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +31,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,7 +98,7 @@
       <recent name="KIT_Einheiten.bank.klassen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Beispiel_1_Main">
+  <component name="RunManager" selected="Application.Beispiel_5_Main">
     <configuration name="Beispiel_1_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Multithreading.Apps.Beispiel_1_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
@@ -98,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics_Uebung (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.Generics_Uebungen.Generics_Uebung" />
+    <configuration name="Beispiel_2_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Multithreading.Apps.Beispiel_2_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.uebungen.Generics_Uebungen.*" />
+          <option name="PATTERN" value="KIT_Einheiten.Multithreading.Apps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics_Uebung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.Generics_Uebungen.Generics_Uebung" />
+    <configuration name="Beispiel_3_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Multithreading.Apps.Beispiel_3_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.uebungen.Generics_Uebungen.*" />
+          <option name="PATTERN" value="KIT_Einheiten.Multithreading.Apps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MitGenericsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eigene_Lerneinheiten.Generics.Mit_Generics.MitGenericsMain" />
+    <configuration name="Beispiel_4_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Multithreading.Apps.Beispiel_4_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Eigene_Lerneinheiten.Generics.Mit_Generics.*" />
+          <option name="PATTERN" value="KIT_Einheiten.Multithreading.Apps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OhneGenericsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eigene_Lerneinheiten.Generics.Ohne_Generics.OhneGenericsMain" />
+    <configuration name="Beispiel_5_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Multithreading.Apps.Beispiel_5_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Eigene_Lerneinheiten.Generics.Ohne_Generics.*" />
+          <option name="PATTERN" value="KIT_Einheiten.Multithreading.Apps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Beispiel_5_Main" />
+        <item itemvalue="Application.Beispiel_4_Main" />
+        <item itemvalue="Application.Beispiel_3_Main" />
+        <item itemvalue="Application.Beispiel_2_Main" />
         <item itemvalue="Application.Beispiel_1_Main" />
-        <item itemvalue="Application.Generics_Uebung" />
-        <item itemvalue="Application.MitGenericsMain" />
-        <item itemvalue="Application.OhneGenericsMain" />
-        <item itemvalue="Application.Generics_Uebung (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +186,7 @@
       <workItem from="1679381871676" duration="23636000" />
       <workItem from="1679468627826" duration="2705000" />
       <workItem from="1679471447886" duration="20360000" />
-      <workItem from="1679553985595" duration="13900000" />
+      <workItem from="1679553985595" duration="17106000" />
     </task>
     <servers />
   </component>

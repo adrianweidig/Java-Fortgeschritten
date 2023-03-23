@@ -1,7 +1,6 @@
 package KIT_Einheiten.applikationen;
 
 import KIT_Einheiten.bank.ausgabe.KonsolenAusgabe;
-import KIT_Einheiten.bank.eingabe.DateiEingabe;
 import KIT_Einheiten.bank.eingabe.DatenbankEingabe;
 import KIT_Einheiten.bank.klassen.Buchung;
 import KIT_Einheiten.bank.klassen.KontoStamm;

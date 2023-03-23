@@ -1,7 +1,6 @@
 package KIT_Einheiten.uebungen.Generics_Uebungen;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 /**
  * Übungsdatei zum Dokument Übung Generics.docx

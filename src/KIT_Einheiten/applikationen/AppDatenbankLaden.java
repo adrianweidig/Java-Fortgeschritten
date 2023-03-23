@@ -7,7 +7,6 @@ import KIT_Einheiten.bank.klassen.*;
 import KIT_Einheiten.bank.schnittstellen.IAusgabe;
 import KIT_Einheiten.bank.schnittstellen.IEingabe;
 
-import java.sql.Array;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

@@ -6,5 +6,7 @@ public class CounterThread_2 implements Runnable{
         for (int i = 0; i < 10000; i++) {
             System.err.println("CounterThread 2 - " + i);
         }
+
+        System.err.println("CounterThread 2 beendet.");
     }
 }

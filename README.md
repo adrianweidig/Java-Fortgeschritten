@@ -1,5 +1,7 @@
 # Java_Kit_Fortgeschritten_1
 
+## [Online-Dokumentation](https://adrianweidig.github.io/Kit_Fortgeschritten_1/)
+
 ## Beschreibung
 Kit / ML Gruppe Lehrgang Java Fortgeschritten 1<br>
 Git-Repo dient zum Abgleich eigener Lösungen und zukünftiger Wiederholung und persönlicher Retrospektive.
@@ -11,7 +13,7 @@ Git-Repo dient zum Abgleich eigener Lösungen und zukünftiger Wiederholung und 
 ## Genutzte IDE und Projektdatei: IntelliJ IDEA 2022 (Ultimate Edition)
 
 ## Orientierung
-[Dokumentation](../../tree/master/Dokumentation/) JavaDoc Dokumentation zu allen Packages gesamt<br>
+[Dokumentation (JavaDocs)](../../tree/master/Dokumentation/) JavaDoc Dokumentation zu allen Packages gesamt<br>
 [Dokumente](../../tree/master/Dokumente/) Word Dokumente zu z.B. Übungen<br>
 [Externe JARs](../../tree/master/Externe%20JARs/) Externe Jars wie z.B. der JDBC<br>
 [UsedJDK](../../tree/master/UsedJDK/) Genutztes JDK<br>

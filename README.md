@@ -1,6 +1,6 @@
 # Java_Kit_Fortgeschritten_1
 
-## [Online-Dokumentation](https://adrianweidig.github.io/Kit_Fortgeschritten_1/)
+## [Online-Dokumentation](https://adrianweidig.github.io/Kit_Fortgeschritten_1/docs/)
 
 ## Beschreibung
 Kit / ML Gruppe Lehrgang Java Fortgeschritten 1<br>

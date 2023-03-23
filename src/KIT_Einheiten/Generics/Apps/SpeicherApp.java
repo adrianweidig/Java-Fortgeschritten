@@ -12,6 +12,8 @@ import KIT_Einheiten.Generics.Klassen.Speicherklasse_Generic;
 public class SpeicherApp {
     public static void main(String[] args) {
         // Standardvariante
+
+
         Speicherklasse speicher = new Speicherklasse(123);
 
         System.out.println(speicher.getSpeicher());

@@ -1,5 +1,11 @@
 package KIT_Einheiten.Multithreading.Klassen;
 
+/**
+ * Threadklasse um Interrupt zu verdeutlichen
+ *
+ * @author Adrian Weidig
+ * @since 24.03.2023
+ */
 public class InterruptThread_1 extends Thread {
     @Override
     public void run() {

@@ -1,5 +1,11 @@
 package KIT_Einheiten.Multithreading.Klassen;
 
+/**
+ * Threadklasse um Synchronisierung zu verdeutlichen
+ *
+ * @author Adrian Weidig
+ * @since 24.03.2023
+ */
 public class SyncThread_1 extends Thread {
     static int zaehler = 0;
     private String name;

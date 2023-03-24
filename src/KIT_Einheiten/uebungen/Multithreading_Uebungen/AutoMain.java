@@ -19,24 +19,30 @@ public class AutoMain {
         // 3. Angabe = Zeit in ms in der schedule erneut aufgerufen werden soll
         timerThread.schedule(autoFahren, 0, 50);
 
+
         // Es wird Zeit benötigt um isBremsen() und die Geschwindigkeit zu überprüfen
         // währenddessen die Werte geändert werden. Ohne sleep oder in einem while(true)
         // mit if Anweisung auf die beiden Bedingungen wird run permanent erneut ausgeführt.
-        while (!autoFahren.isBremsen() || autoFahren.getGeschwindigkeit_in_kmh() > 0) {
-            Thread.sleep(1);
+        //while (!autoFahren.isBremsen() || autoFahren.getGeschwindigkeit_in_kmh() > 0) {
+        //    Thread.sleep(1);
+        //}
+
+        // Synchronized ist hier essenziell aufgrund des Fehlers in Zeile 23.
+        // Synchronized sorgt hier für den geregelten Zugriff auf die Klasse autoFahren
+
+        boolean timer_laeuft = true;
+        while (timer_laeuft) {
+            synchronized (autoFahren) {
+                if (autoFahren.isBremsen() && autoFahren.getGeschwindigkeit_in_kmh() <= 0) {
+                    timerThread.cancel();
+                    autoFahren.cancel();
+                    timer_laeuft = false;
+                }
+            }
         }
 
-        // Fehlerhaft
-
-        //  while(true) {
-        //      if(autoFahren.isBremsen() && autoFahren.getGeschwindigkeit_in_kmh() <= 0) {
-        //          timerThread.cancel();
-        //          autoFahren.cancel();
-        //      }
-        //  }
-
-        timerThread.cancel();
-        autoFahren.cancel();
+        //timerThread.cancel();
+        //autoFahren.cancel();
 
     }
 }

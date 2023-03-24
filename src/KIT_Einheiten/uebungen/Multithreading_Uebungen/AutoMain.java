@@ -35,7 +35,6 @@ public class AutoMain {
             synchronized (autoFahren) {
                 if (autoFahren.isBremsen() && autoFahren.getGeschwindigkeit_in_kmh() <= 0) {
                     timerThread.cancel();
-                    autoFahren.cancel();
                     timer_laeuft = false;
                 }
             }

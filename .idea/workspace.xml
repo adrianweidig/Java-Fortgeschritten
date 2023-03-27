@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dokumente/Übung Serialisierung.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/Beispiel_NotTrueRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Datenhalter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Serialisierung_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/resources/datenhaltung.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/resources/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/resources/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/resources/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Datenhalter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Datenhalter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Serialisierung_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Serialisierung_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/resources/datenhaltung.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/resources/datenhaltung.obj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +178,7 @@
       <workItem from="1679471447886" duration="20360000" />
       <workItem from="1679553985595" duration="18023000" />
       <workItem from="1679641297946" duration="8458000" />
-      <workItem from="1679895476002" duration="7282000" />
+      <workItem from="1679895476002" duration="9425000" />
     </task>
     <servers />
   </component>

@@ -13,7 +13,7 @@ public class Datenhalter implements Serializable {
     /**
      * Initialisiert die ArrayList mit den Primzahlen von 1 bis 100
      */
-    public void initArrayList() {
+    public Datenhalter() {
         for (int i = 2; i <= 100; i++) {
             boolean istPrimzahl = true;
             for (int j = 2; j < i; j++) {

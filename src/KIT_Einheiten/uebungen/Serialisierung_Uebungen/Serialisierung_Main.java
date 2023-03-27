@@ -15,12 +15,7 @@ import java.nio.file.Paths;
  */
 public class Serialisierung_Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
-            System.out.println("test " + i+1 + " test");
-        }
-
         Datenhalter datenhalter = new Datenhalter();
-        datenhalter.initArrayList();
 
         String pfad = "src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/resources/datenhaltung.obj";
 

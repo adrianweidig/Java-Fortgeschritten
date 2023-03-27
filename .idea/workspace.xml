@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/person_1.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/SerialisierungMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/XML_SerialisierungMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/resources/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/resources/person_1.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/resources/person_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dokumente/Übung Serialisierung.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eigene_Lerneinheiten/Beispiel_NotTrueRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Datenhalter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Serialisierung_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/resources/datenhaltung.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/resources/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/resources/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/resources/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +25,8 @@
       <list>
         <option value="Interface" />
         <option value="JavaFXApplication" />
-        <option value="package-info" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -93,39 +93,13 @@
       <recent name="KIT_Einheiten.bank.klassen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.XML_SerialisierungMain">
-    <configuration name="AutoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.Multithreading_Uebungen.AutoMain" />
+  <component name="RunManager" selected="Application.Serialisierung_Main">
+    <configuration name="Beispiel_NotTrueRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eigene_Lerneinheiten.Beispiel_NotTrueRandom" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.uebungen.Multithreading_Uebungen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Beispiel_6_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Multithreading.Apps.Beispiel_6_Main" />
-      <module name="Java_Kit_Fortgeschritten_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.Multithreading.Apps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Beispiel_7_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Multithreading.Apps.Beispiel_7_Main" />
-      <module name="Java_Kit_Fortgeschritten_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.Multithreading.Apps.*" />
+          <option name="PATTERN" value="Eigene_Lerneinheiten.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,6 +120,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Serialisierung_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.Serialisierung_Uebungen.Serialisierung_Main" />
+      <module name="Java_Kit_Fortgeschritten_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KIT_Einheiten.uebungen.Serialisierung_Uebungen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XML_SerialisierungMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Serialisierung.XML_SerialisierungMain" />
       <module name="Java_Kit_Fortgeschritten_1" />
@@ -159,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Serialisierung.test" />
+      <module name="Java_Kit_Fortgeschritten_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KIT_Einheiten.Serialisierung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Serialisierung_Main" />
+        <item itemvalue="Application.Beispiel_NotTrueRandom" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.XML_SerialisierungMain" />
         <item itemvalue="Application.SerialisierungMain" />
-        <item itemvalue="Application.AutoMain" />
-        <item itemvalue="Application.Beispiel_6_Main" />
-        <item itemvalue="Application.Beispiel_7_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,7 @@
       <workItem from="1679471447886" duration="20360000" />
       <workItem from="1679553985595" duration="18023000" />
       <workItem from="1679641297946" duration="8458000" />
-      <workItem from="1679895476002" duration="4033000" />
+      <workItem from="1679895476002" duration="7282000" />
     </task>
     <servers />
   </component>

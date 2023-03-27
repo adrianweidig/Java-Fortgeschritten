@@ -4,4 +4,4 @@
  * @since 27.03.2023
  * @author Adrian Weidig
  */
-package KIT_Einheiten.Serialisierung.resources;
+package KIT_Einheiten.uebungen.Serialisierung_Uebungen.resources;

@@ -5,6 +5,9 @@ import java.io.Serializable;
 /**
  * Simple Datenhaltungsklasse zur persistenten Speicherung
  * in einer Datei.
+ *
+ * @author Adrian Weidig
+ * @since 27.03.2023
  */
 public class Person implements Serializable {
     /***********************/

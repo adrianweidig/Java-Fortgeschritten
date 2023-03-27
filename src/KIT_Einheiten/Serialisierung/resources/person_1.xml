@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_111" class="java.beans.XMLDecoder">
+ <object class="KIT_Einheiten.Serialisierung.Person">
+  <void property="nachname">
+   <string>Huber</string>
+  </void>
+  <void property="vorname">
+   <string>Max</string>
+  </void>
+ </object>
+</java>

@@ -12,6 +12,7 @@ package KIT_Einheiten.JNI;
  * 4. Compiler für C++ installieren: cmd /c vcvarsall.bat x64 '&&' (Get-Process -Id $PID).Path     | (via Powershell oder CMD)
  * 5. Via cd in Projektordner wechseln:
  * 5.1. ERST cl /I "..\..\..\UsedJDK\jdk1.8.0_111\include" /I "..\..\..\UsedJDK\jdk1.8.0_111\include\win32" /LD "KIT_Einheiten_JNI_JNIMain.cpp" /EHsc
+ * 6. IntelliJ: File --> Project Structure --> Libraries --> + --> Java --> Verzeichnis, welches .dll enthält --> Native Library --> Alles mit Ok bestätigen
  */
 public class JNIMain {
     /* Anleitung für das bauen eines JavaH Tools für IntelliJ:
@@ -35,12 +36,19 @@ public class JNIMain {
      */
 
     static {
-        System.loadLibrary("KIT_Einheiten_JNI_JNIMain.dll");
+        System.loadLibrary("KIT_Einheiten_JNI_JNIMain");
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         sagHallo();
+        printInt(5);
+        System.out.print("Bitte Wert eingeben: ");
+        System.out.println(getInt());
     }
 
-    private static native void sagHallo();
+    public static native void sagHallo();
+
+    public static native void printInt(int wert);
+
+    public static native int getInt();
 }

@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/CppProperties.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/JNIMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java_Kit_Fortgeschritten_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Kit_Fortgeschritten_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person_1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/JNIMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/JNIMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.exp" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.lib" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.obj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
       <list>
         <option value="Interface" />
         <option value="JavaFXApplication" />
-        <option value="package-info" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -42,41 +42,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8 (2)",
-    "last_opened_file_path": "E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.dll",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.externalTools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8 (2)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/JNI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver",
-      "mysql",
-      "sqlserver.localdb",
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;,
+      &quot;mysql&quot;,
+      &quot;sqlserver.localdb&quot;,
+      &quot;sqlite&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "SQLite"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;SQLite&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "SQLite"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;SQLite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\Serialisierung\resources" />
@@ -185,7 +185,8 @@
       <workItem from="1679471447886" duration="20360000" />
       <workItem from="1679553985595" duration="18023000" />
       <workItem from="1679641297946" duration="8458000" />
-      <workItem from="1679895476002" duration="16789000" />
+      <workItem from="1679895476002" duration="21498000" />
+      <workItem from="1679921619352" duration="35000" />
     </task>
     <servers />
   </component>

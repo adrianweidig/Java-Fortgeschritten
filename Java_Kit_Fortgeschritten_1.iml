@@ -11,15 +11,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="sqlite-jdbc-3.40.0.0" level="application" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES />
-        <JAVADOC />
-        <NATIVE>
-          <root url="file://$MODULE_DIR$/src/KIT_Einheiten/JNI" />
-        </NATIVE>
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="JNI" level="project" />
   </component>
 </module>

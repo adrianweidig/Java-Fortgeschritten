@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/CppProperties.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/JNIMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Datenhalter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Datenhalter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Serialisierung_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Serialisierung_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/resources/datenhaltung.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/Serialisierung_Uebungen/resources/datenhaltung.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Kit_Fortgeschritten_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Kit_Fortgeschritten_1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +26,8 @@
       <list>
         <option value="Interface" />
         <option value="JavaFXApplication" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,15 +50,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8 (2)",
-    "last_opened_file_path": "E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/Serialisierung/resources",
+    "last_opened_file_path": "E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/JNI/KIT_Einheiten_JNI_JNIMain.dll",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Global Libraries",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "database.query.execution",
+    "settings.editor.selected.configurable": "preferences.externalTools",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -88,7 +95,7 @@
       <recent name="KIT_Einheiten.bank.klassen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Serialisierung_Main">
+  <component name="RunManager" selected="Application.JNIMain">
     <configuration name="Beispiel_NotTrueRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Eigene_Lerneinheiten.Beispiel_NotTrueRandom" />
       <module name="Java_Kit_Fortgeschritten_1" />
@@ -102,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerialisierungMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Serialisierung.SerialisierungMain" />
+    <configuration name="JNIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.JNI.JNIMain" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.Serialisierung.*" />
+          <option name="PATTERN" value="KIT_Einheiten.JNI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JNIMain" />
         <item itemvalue="Application.Serialisierung_Main" />
         <item itemvalue="Application.Beispiel_NotTrueRandom" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.XML_SerialisierungMain" />
-        <item itemvalue="Application.SerialisierungMain" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +185,7 @@
       <workItem from="1679471447886" duration="20360000" />
       <workItem from="1679553985595" duration="18023000" />
       <workItem from="1679641297946" duration="8458000" />
-      <workItem from="1679895476002" duration="9425000" />
+      <workItem from="1679895476002" duration="16789000" />
     </task>
     <servers />
   </component>

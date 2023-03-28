@@ -31,7 +31,7 @@ public class FXController_1 {
     }
 
     /**
-     * Button Funktionalität zum öffnen eines Alerts.
+     * Button Funktionalität zum Öffnen eines Alerts.
      *
      * @param e zugehöriges Auslöseevent
      */

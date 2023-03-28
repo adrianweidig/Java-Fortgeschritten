@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: yellow;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="KIT_Einheiten.JavaFX.Klassen.FXController_2">
+    <children>
+        <Label fx:id="lblHallo" alignment="BOTTOM_CENTER" layoutX="79.0" layoutY="70.0" prefHeight="32.0" prefWidth="246.0" text="Hallo Welt" textFill="#ae0f0f" underline="true">
+            <font>
+                <Font name="Bodoni MT Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="lblAusgabe" layoutX="162.0" layoutY="144.0" text="Label" />
+        <Button fx:id="btnAusgabe" layoutX="72.0" layoutY="229.0" mnemonicParsing="false" onAction="#btnAusgabe_Click" text="Ausgabe" />
+        <Button fx:id="btnEnde" layoutX="250.0" layoutY="229.0" mnemonicParsing="false" onAction="#btnEnde_Click" text="Ende" />
+    </children>
+</AnchorPane>

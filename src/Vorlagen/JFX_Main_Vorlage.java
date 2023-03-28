@@ -20,6 +20,7 @@ public class JFX_Main_Vorlage extends Application {
     public static void main(String[] args) {
         // Auskommentieren und gem. Dokumentation zwischen eigenen oder verschiedenen Stylesheets wechseln
         // setUserAgentStylesheet(STYLESHEET_CASPIAN);
+        // setUserAgentStylesheet(String.valueOf(Uebung_FX1_Main.class.getResource("..\\resources\\light.css")));
         launch(args);
     }
 

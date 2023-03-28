@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
+import javafx.scene.control.DialogPane;
 import javafx.scene.control.TextField;
 
 import java.net.URL;
@@ -67,6 +68,11 @@ public class Uebung_FX1_Controller {
     @FXML
     void fx_on_adressausgabe_click(ActionEvent event) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
+
+        DialogPane dialogPane = alert.getDialogPane();
+        dialogPane.getStylesheets().add(this.getClass().getResource("..\\resources\\light.css").toExternalForm());
+        dialogPane.getStyleClass().add("light");
+
         alert.setTitle("Adressausgabe");
         alert.setHeaderText(fx_vorname_input.getText() + " " + fx_name_input.getText());
         alert.setContentText(fx_strasse_input.getText() + " , " + fx_plz_input.getText() + " " + fx_ort_input.getText());

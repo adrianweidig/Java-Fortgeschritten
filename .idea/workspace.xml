@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="Internal fixes">
-      <change afterPath="$PROJECT_DIR$/Dokumente/Übung FX1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX1_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/Uebung_FX1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX1_Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/Binding.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/Binding.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/BorderLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/BorderLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FlowLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FlowLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/GridLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/GridLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/HBoxLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/HBoxLayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/BindingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/BindingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX1_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX1_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/Uebung_FX1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/Uebung_FX1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX1_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX1_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vorlagen/JFX_Main_Vorlage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vorlagen/JFX_Main_Vorlage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +188,7 @@
       <workItem from="1679895476002" duration="21498000" />
       <workItem from="1679921619352" duration="3811000" />
       <workItem from="1679925503699" duration="661000" />
-      <workItem from="1679981423939" duration="12293000" />
+      <workItem from="1679981423939" duration="13903000" />
     </task>
     <task id="LOCAL-00001" summary="Internal fixes">
       <created>1679921727225</created>

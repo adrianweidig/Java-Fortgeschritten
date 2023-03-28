@@ -1,13 +1,17 @@
 package KIT_Einheiten.JavaFX.Klassen;
 
 
-import java.net.URL;
-import java.util.ResourceBundle;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
+
+import javax.swing.*;
+import java.net.URL;
+import java.util.ResourceBundle;
 
 /**
  * Controllerklasse 2
@@ -52,11 +56,16 @@ public class FXController_2 {
      */
     void initialize() {
         System.out.println("Location: " + this.location);
+
+        lblAusgabe.setText("Ausgabe");
+        lblAusgabe.setVisible(true);
+        lblAusgabe.setLayoutX(10);
+
+
         assert lblHallo != null : "fx:id=\"lblHallo\" was not injected: check your FXML file 'FXController_2.fxml'.";
         assert lblAusgabe != null : "fx:id=\"lblAusgabe\" was not injected: check your FXML file 'FXController_2.fxml'.";
         assert btnAusgabe != null : "fx:id=\"btnAusgabe\" was not injected: check your FXML file 'FXController_2.fxml'.";
         assert btnEnde != null : "fx:id=\"btnEnde\" was not injected: check your FXML file 'FXController_2.fxml'.";
-
     }
 
     /***********************/
@@ -70,12 +79,26 @@ public class FXController_2 {
 
     @FXML
     void btnAusgabe_Click(ActionEvent event) {
+        // Ausgbae in einer MessageBox
+        // 1. MessageBox aus Java Swing
+    	JOptionPane.showMessageDialog(null, lblAusgabe.getText());
 
+        // 2. Ausgabe über die Alert Klasse
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Ausgabe der Daten");
+        alert.setHeaderText("");
+        alert.setContentText(lblAusgabe.getText());
+        alert.showAndWait();
     }
 
     @FXML
     void btnEnde_Click(ActionEvent event) {
+        // 1. App beenden
+        // System.exit(0);
 
+        // 2. Beenden des Fensters
+        Stage stage = (Stage) btnEnde.getScene().getWindow();
+        stage.close();
     }
 
     /***********************/

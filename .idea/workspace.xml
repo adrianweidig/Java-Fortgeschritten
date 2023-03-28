@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="Internal fixes">
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/Bindings_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/Layouts_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/Binding.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/BorderLayout.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FlowLayout.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/GridLayout.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/HBoxLayout.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/BindingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dokumente/Übung FX1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX1_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/Uebung_FX1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX1_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FXController_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FXController_1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FXController_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FXController_2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/FXController_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/FXController_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/Applikationen/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/Applikationen/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/Binding.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/Binding.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/BorderLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/BorderLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FlowLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FlowLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/GridLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/GridLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/HBoxLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/HBoxLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/BindingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/BindingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +33,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="package-info" />
+        <option value="JavaFXApplication" />
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="JavaFXApplication" />
+        <option value="CSS File" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -54,7 +60,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8 (2)",
-    "last_opened_file_path": "E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/JavaFX/FXML",
+    "last_opened_file_path": "E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,17 +90,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\uebungen\JavaFX_Uebungen\Apps" />
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\uebungen\JavaFX_Uebungen\FXML" />
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\uebungen\JavaFX_Uebungen\Klassen" />
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\uebungen\JavaFX_Uebungen\resources" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
-      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\Netzwerk\Klassen" />
-      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\Netzwerk\Applikationen" />
-      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\Serialisierung\resources" />
-      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\Serialisierung" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\Apps" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\Klassen" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
-      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JDBC\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -101,26 +108,13 @@
       <recent name="KIT_Einheiten.bank.klassen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KIT_Einheiten.JavaFX.Apps.Bindings_Main">
+  <component name="RunManager" selected="Application.Uebung_FX1_Main">
     <configuration name="Bindings_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Binding.Bindings_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Binding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FXApp_1_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.JavaFX.Apps.FXApp_1_Main" />
-      <module name="Java_Kit_Fortgeschritten_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.JavaFX.Apps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,13 +161,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Uebung_FX1_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.Uebung_FX1_Main" />
+      <module name="Java_Kit_Fortgeschritten_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Uebung_FX1_Main" />
         <item itemvalue="Application.KIT_Einheiten.JavaFX.Apps.Bindings_Main" />
         <item itemvalue="Application.Bindings_Main" />
         <item itemvalue="Application.Layouts_Main" />
         <item itemvalue="Application.FXApp_5_Main" />
-        <item itemvalue="Application.FXApp_1_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +201,7 @@
       <workItem from="1679895476002" duration="21498000" />
       <workItem from="1679921619352" duration="3811000" />
       <workItem from="1679925503699" duration="661000" />
-      <workItem from="1679981423939" duration="8597000" />
+      <workItem from="1679981423939" duration="12293000" />
     </task>
     <task id="LOCAL-00001" summary="Internal fixes">
       <created>1679921727225</created>

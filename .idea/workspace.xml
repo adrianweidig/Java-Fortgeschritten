@@ -5,268 +5,157 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="Internal fixes">
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JNI/JNIMain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JNI/class-use/JNIMain.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JNI/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JNI/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JNI/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JNI/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/AppAdapter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/AppHTMLContent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/AppIP.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/AppURL.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/ClientApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/ServerApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/class-use/AppAdapter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/class-use/AppHTMLContent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/class-use/AppIP.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/class-use/AppURL.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/class-use/ClientApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/class-use/ServerApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Netzwerk/Applikationen/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-24.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/Applikationen/AppAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/Applikationen/AppHTMLContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/Applikationen/AppIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/Applikationen/AppURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/Applikationen/ClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/Applikationen/ServerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/Applikationen/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Netzwerk/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/SceneBuilder.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/SceneBuilder.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/app/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/app/SceneBuilder.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/app/dist.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/msvcp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/msvcr100.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/packager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/THIRDPARTYLICENSEREADME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/Welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/accessibility.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/amd64/jvm.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/calendars.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/charsets.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/classlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/cmm/CIEXYZ.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/cmm/GRAY.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/cmm/LINEAR_RGB.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/cmm/PYCC.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/cmm/sRGB.pf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/content-types.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/currency.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/access-bridge-64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/cldrdata.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/dnsns.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/jaccess.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/jfxrt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/localedata.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/meta-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/nashorn.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/sunec.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/sunjce_provider.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/sunmscapi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/sunpkcs11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/ext/zipfs.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/flavormap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fontconfig.bfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fontconfig.properties.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fonts/LucidaBrightDemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fonts/LucidaBrightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fonts/LucidaBrightRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fonts/LucidaSansDemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fonts/LucidaSansRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fonts/LucidaTypewriterBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/fonts/LucidaTypewriterRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/hijrah-config-umalqura.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/images/cursors/cursors.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/images/cursors/invalid32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/images/cursors/win32_CopyDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/images/cursors/win32_CopyNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/images/cursors/win32_LinkDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/images/cursors/win32_LinkNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/images/cursors/win32_MoveDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/images/cursors/win32_MoveNoDrop32x32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/javaws.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/jce.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/jfr.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/jfr/default.jfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/jfr/profile.jfc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/jfxswt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/jsse.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/jvm.hprof.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/management-agent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/management/jmxremote.access" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/management/jmxremote.password.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/management/management.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/management/snmp.acl.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/meta-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/net.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/psfont.properties.ja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/psfontj2d.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/resources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/blacklist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/blacklisted.certs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/cacerts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/java.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/java.security" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/javaws.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/policy/limited/US_export_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/policy/limited/local_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/policy/unlimited/US_export_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/policy/unlimited/local_policy.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/security/trusted.libraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/sound.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/tzdb.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/runtime/lib/tzmappings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/unins000.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/unins000.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Externe JARs und Programme/SceneBuilder8/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_1_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_2_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_3_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/FXController_1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/FXController_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/resources/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Beispiel_NotTrueRandom.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Beispiel_NotTrueRandom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Auto.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Auto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Fahrrad.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Fahrrad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Fahrzeug.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Fahrzeug.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/FahrzeugArrayList.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/FahrzeugArrayList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/MitGenericsMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/MitGenericsMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/class-use/FahrzeugArrayList.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/class-use/FahrzeugArrayList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/class-use/MitGenericsMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/class-use/MitGenericsMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Mit_Generics/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/NichtDefiniertesFahrzeug.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/NichtDefiniertesFahrzeug.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/OhneGenericsMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/OhneGenericsMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/class-use/OhneGenericsMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/class-use/OhneGenericsMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/Ohne_Generics/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/class-use/Auto.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/class-use/Auto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/class-use/Fahrrad.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/class-use/Fahrrad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/class-use/Fahrzeug.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/class-use/Fahrzeug.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/class-use/NichtDefiniertesFahrzeug.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/class-use/NichtDefiniertesFahrzeug.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/Generics/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/class-use/Beispiel_NotTrueRandom.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/class-use/Beispiel_NotTrueRandom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Eigene_Lerneinheiten/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/SpeicherApp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/SpeicherApp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/class-use/SpeicherApp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/class-use/SpeicherApp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Apps/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/Speicherklasse.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/Speicherklasse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/Speicherklasse_Generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/Speicherklasse_Generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/class-use/Speicherklasse.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/class-use/Speicherklasse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/class-use/Speicherklasse_Generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/class-use/Speicherklasse_Generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Generics/Klassen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/DBApp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/DBApp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/class-use/DBApp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/class-use/DBApp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/app/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/DBZugriff.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/DBZugriff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/class-use/DBZugriff.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/class-use/DBZugriff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/JDBC/klassen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_1_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_1_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_2_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_2_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_3_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_3_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_4_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_4_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_5_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_5_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_6_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_6_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_7_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/Beispiel_7_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_1_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_1_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_2_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_2_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_3_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_3_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_4_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_4_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_5_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_5_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_6_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_6_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_7_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/class-use/Beispiel_7_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Apps/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/ConsumerThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/ConsumerThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/CounterThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/CounterThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/CounterThread_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/CounterThread_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/CounterThread_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/CounterThread_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/CounterThread_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/CounterThread_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/DeadLock_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/DeadLock_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/DeadLock_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/DeadLock_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/InterruptThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/InterruptThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/ProducerThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/ProducerThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/SyncThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/SyncThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/TimerTask_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/TimerTask_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/ConsumerThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/ConsumerThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/CounterThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/CounterThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/CounterThread_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/CounterThread_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/CounterThread_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/CounterThread_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/CounterThread_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/CounterThread_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/DeadLock_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/DeadLock_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/DeadLock_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/DeadLock_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/InterruptThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/InterruptThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/ProducerThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/ProducerThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/SyncThread_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/SyncThread_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/TimerTask_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/class-use/TimerTask_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Multithreading/Klassen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/Person.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/Person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/SerialisierungMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/SerialisierungMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/XML_SerialisierungMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/XML_SerialisierungMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/class-use/Person.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/class-use/Person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/class-use/SerialisierungMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/class-use/SerialisierungMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/class-use/XML_SerialisierungMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/class-use/XML_SerialisierungMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/Serialisierung/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/AppBankDatei.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/AppBankDatei.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/AppDatenbankLaden.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/AppDatenbankLaden.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/class-use/AppBankDatei.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/class-use/AppBankDatei.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/class-use/AppDatenbankLaden.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/class-use/AppDatenbankLaden.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/applikationen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/FXAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/FXAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/KonsolenAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/class-use/FXAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/class-use/FXAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/class-use/KonsolenAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/class-use/KonsolenAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/ausgabe/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/DateiEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/DateiEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/DatenbankEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/DatenbankEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/class-use/DateiEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/class-use/DateiEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/class-use/DatenbankEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/class-use/DatenbankEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/eingabe/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/Buchung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/Buchung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/DBZugriff.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/DBZugriff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/DarlehensKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/DarlehensKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/GiroKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/GiroKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/KontoStamm.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/KontoStamm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/SparKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/SparKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/Buchung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/Buchung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/DBZugriff.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/DBZugriff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/DarlehensKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/DarlehensKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/GiroKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/GiroKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/KontoStamm.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/KontoStamm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/SparKonto.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/class-use/SparKonto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/klassen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/IAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/IAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/IEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/IEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/class-use/IAusgabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/class-use/IAusgabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/class-use/IEingabe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/class-use/IEingabe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/bank/schnittstellen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/Generics_Uebung.Datenhaltung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/Generics_Uebung.Datenhaltung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/Generics_Uebung.GenArrayList.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/Generics_Uebung.GenArrayList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/Generics_Uebung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/Generics_Uebung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/class-use/Generics_Uebung.Datenhaltung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/class-use/Generics_Uebung.Datenhaltung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/class-use/Generics_Uebung.GenArrayList.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/class-use/Generics_Uebung.GenArrayList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/class-use/Generics_Uebung.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/class-use/Generics_Uebung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Generics_Uebungen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/AutoMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/AutoMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/Auto_fahren.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/Auto_fahren.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/class-use/AutoMain.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/class-use/AutoMain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/class-use/Auto_fahren.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/class-use/Auto_fahren.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Multithreading_Uebungen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Datenhalter.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Datenhalter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Serialisierung_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/Serialisierung_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/class-use/Datenhalter.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/class-use/Datenhalter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/class-use/Serialisierung_Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/class-use/Serialisierung_Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/KIT_Einheiten/uebungen/Serialisierung_Uebungen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Vorlagen/KlassenVorlage.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vorlagen/KlassenVorlage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Vorlagen/class-use/KlassenVorlage.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vorlagen/class-use/KlassenVorlage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Vorlagen/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vorlagen/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Vorlagen/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vorlagen/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Vorlagen/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vorlagen/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Vorlagen/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Vorlagen/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-21.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-23.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-23.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/docs/package-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/serialized-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/JNIMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JNI/JNIMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/SerialisierungMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/SerialisierungMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/XML_SerialisierungMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/Serialisierung/XML_SerialisierungMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Externe JARs/sqlite-jdbc-3.40.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Externe JARs und Programme/sqlite-jdbc-3.40.0.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,8 +167,9 @@
       <list>
         <option value="Interface" />
         <option value="JavaFXApplication" />
-        <option value="package-info" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -294,50 +184,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8 (2)&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/Netzwerk/Klassen&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8 (2)",
+    "last_opened_file_path": "E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/JavaFX/FXML",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.externalTools",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver&quot;,
-      &quot;mysql&quot;,
-      &quot;sqlserver.localdb&quot;,
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver",
+      "mysql",
+      "sqlserver.localdb",
+      "sqlite"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;SQLite&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "SQLite"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
-      &quot;SQLite&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "SQLite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\Netzwerk\Klassen" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\Netzwerk\Applikationen" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\Serialisierung\resources" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\Serialisierung" />
-      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\Eigene_Lerneinheiten\SQL" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\Apps" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JDBC\resources" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Externe JARs" />
@@ -347,7 +238,7 @@
       <recent name="KIT_Einheiten.bank.klassen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppAdapter">
+  <component name="RunManager" selected="Application.FXApp_1_Main">
     <configuration name="AppAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Netzwerk.Applikationen.AppAdapter" />
       <module name="Java_Kit_Fortgeschritten_1" />
@@ -374,8 +265,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Netzwerk.Applikationen.AppIP" />
+    <configuration name="ClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Netzwerk.Applikationen.ClientApp" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
@@ -387,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.Netzwerk.Applikationen.ClientApp" />
+    <configuration name="FXApp_1_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.JavaFX.Apps.FXApp_1_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.Netzwerk.Applikationen.*" />
+          <option name="PATTERN" value="KIT_Einheiten.JavaFX.Apps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FXApp_1_Main" />
         <item itemvalue="Application.AppAdapter" />
         <item itemvalue="Application.ClientApp" />
         <item itemvalue="Application.ServerApp" />
         <item itemvalue="Application.AppHTMLContent" />
-        <item itemvalue="Application.AppIP" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +330,8 @@
       <workItem from="1679641297946" duration="8458000" />
       <workItem from="1679895476002" duration="21498000" />
       <workItem from="1679921619352" duration="3811000" />
-      <workItem from="1679925503699" duration="600000" />
+      <workItem from="1679925503699" duration="661000" />
+      <workItem from="1679981423939" duration="3426000" />
     </task>
     <task id="LOCAL-00001" summary="Internal fixes">
       <created>1679921727225</created>

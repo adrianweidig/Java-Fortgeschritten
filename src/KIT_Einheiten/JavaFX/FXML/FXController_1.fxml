@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="292.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="KIT_Einheiten.JavaFX.Klassen.FXController_1">
+    <children>
+        <Label fx:id="lblHello" layoutX="146.0" layoutY="114.0" prefHeight="17.0" prefWidth="95.0" text="Hallo Welt"/>
+        <Button fx:id="btnEnde" layoutX="128.0" layoutY="182.0" mnemonicParsing="false" onAction="#btnEnde_Click"
+                text="Ende"/>
+    </children>
+</AnchorPane>

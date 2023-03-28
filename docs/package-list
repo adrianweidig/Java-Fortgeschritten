@@ -7,6 +7,8 @@ KIT_Einheiten.Generics.Klassen
 KIT_Einheiten.JDBC.app
 KIT_Einheiten.JDBC.klassen
 KIT_Einheiten.JNI
+KIT_Einheiten.JavaFX.Apps
+KIT_Einheiten.JavaFX.Klassen
 KIT_Einheiten.Multithreading.Apps
 KIT_Einheiten.Multithreading.Klassen
 KIT_Einheiten.Netzwerk.Applikationen

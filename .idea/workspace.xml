@@ -5,30 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="Internal fixes">
-      <change afterPath="$PROJECT_DIR$/Dokumente/Übung FX3.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/TreeView_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/TreeView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/TreeViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX3_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/Uebung_FX3.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX3_Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/treeview.tv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/foldericon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/Bindings_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/Bindings_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/EinfacheKomponenten_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/EinfacheKomponenten_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_1_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_1_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_2_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_2_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_3_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_3_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_4_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_4_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_5_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/FXApp_5_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/Layouts_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/Layouts_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/EinfacheKomponenten.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/EinfacheKomponenten.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/BindingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/BindingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/EinfacheKomponentenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/EinfacheKomponentenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/FXController_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/FXController_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/FXController_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/FXController_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX3_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX3_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX3_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX3_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/treeview.tv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,11 +94,11 @@
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\uebungen\JavaFX_Uebungen\resources" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\Apps" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\Klassen" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
-      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JDBC\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="KIT_Einheiten.uebungen.JavaFX_Uebungen.Klassen" />
@@ -222,7 +203,7 @@
       <workItem from="1679925503699" duration="661000" />
       <workItem from="1679981423939" duration="13903000" />
       <workItem from="1680071644628" duration="23000" />
-      <workItem from="1680071739495" duration="17127000" />
+      <workItem from="1680071739495" duration="19140000" />
     </task>
     <task id="LOCAL-00001" summary="Internal fixes">
       <created>1679921727225</created>

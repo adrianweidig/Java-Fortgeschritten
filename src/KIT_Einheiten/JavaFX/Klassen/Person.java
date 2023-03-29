@@ -2,6 +2,10 @@ package KIT_Einheiten.JavaFX.Klassen;
 
 import java.time.LocalDate;
 
+/**
+ * since: 29.03.2023
+ * author: ML Dozent Armenti
+ */
 public class Person {
     private int persnr;
     private String vorname;

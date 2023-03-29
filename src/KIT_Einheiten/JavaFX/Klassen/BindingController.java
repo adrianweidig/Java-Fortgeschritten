@@ -7,6 +7,10 @@ import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 
+/**
+ * since: 29.03.2023
+ * author: ML Dozent Armenti
+ */
 public class BindingController {
     @FXML
     private TextField txtFeld2;
@@ -23,20 +27,20 @@ public class BindingController {
         txtFeld1.focusedProperty().addListener(new FocusImpl<Boolean>(txtFeld1));
         txtFeld2.focusedProperty().addListener(new FocusImpl<Boolean>(txtFeld2));
 
-    	/*
-    	txtFeld2.focusedProperty().addListener(new ChangeListener<Boolean>()
-    	{
-			@Override
-			public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue)
-			{
-				if(newValue)
-					txtFeld2.setStyle("-fx-background-color: yellow");
-				else
-					txtFeld2.setStyle("-fx-background-color: white");
+        /*
+        txtFeld2.focusedProperty().addListener(new ChangeListener<Boolean>()
+        {
+            @Override
+            public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue)
+            {
+                if(newValue)
+                    txtFeld2.setStyle("-fx-background-color: yellow");
+                else
+                    txtFeld2.setStyle("-fx-background-color: white");
 
-			}
-		});
-		*/
+            }
+        });
+        */
     }
 
     class FocusImpl<T> implements ChangeListener<T> {

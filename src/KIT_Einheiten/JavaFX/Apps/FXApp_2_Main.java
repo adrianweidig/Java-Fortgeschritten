@@ -6,6 +6,10 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+/**
+ * since: 29.03.2023
+ * author: ML Dozent Armenti
+ */
 public class FXApp_2_Main extends Application {
 
     public static void main(String[] args) {

@@ -9,10 +9,8 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * JavaFX Startklasse
- *
- * @author
- * @since
+ * since: 29.03.2023
+ * author: ML Dozent Armenti
  */
 public class EinfacheKomponenten_Main extends Application {
 

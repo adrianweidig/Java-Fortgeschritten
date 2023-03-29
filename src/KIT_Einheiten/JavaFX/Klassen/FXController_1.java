@@ -10,10 +10,8 @@ import javafx.stage.Stage;
 import javax.swing.*;
 
 /**
- * Controllerklasse zum Veranschaulichen der FXML Funktionalität.
- *
- * @author Adrian Weidig
- * @since 28.03.2023
+ * since: 29.03.2023
+ * author: ML Dozent Armenti
  */
 public class FXController_1 {
     // Deklaration der Felder die in der Maske verwendet werden

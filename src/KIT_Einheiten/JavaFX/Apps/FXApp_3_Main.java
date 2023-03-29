@@ -9,6 +9,10 @@ import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+/**
+ * since: 29.03.2023
+ * author: ML Dozent Armenti
+ */
 public class FXApp_3_Main extends Application {
 
     public static void main(String[] args) {

@@ -1,15 +1,15 @@
 package KIT_Einheiten.JavaFX.Klassen;
 
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
+import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.DatePicker;
+import javafx.scene.control.cell.TextFieldListCell;
 import javafx.util.StringConverter;
 
 import java.net.URL;
@@ -17,6 +17,10 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 
+/**
+ * since: 29.03.2023
+ * author: ML Dozent Armenti
+ */
 public class EinfacheKomponentenController {
     /***********************/
     /*** FXML Attribute ****/
@@ -33,6 +37,9 @@ public class EinfacheKomponentenController {
     private ComboBox<String> cboNamen;
     @FXML
     private ComboBox<Person> cboPerson;
+
+    @FXML
+    private ListView<Person> lvPerson;
 
     /***********************/
     /****** Attribute ******/
@@ -66,6 +73,7 @@ public class EinfacheKomponentenController {
     void initialize() {
         cboNamen.setItems(cboNamenData);
         cboPerson.setItems(cboPeronData);
+        lvPerson.setItems(cboPeronData);
 
         // Converter für cboPerson
         cboPerson.setConverter(new StringConverter<Person>() {
@@ -78,6 +86,32 @@ public class EinfacheKomponentenController {
             public Person fromString(String string) {
                 return null;
             }
+        });
+
+        cboPerson.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Person>() {
+
+            @Override
+            public void changed(ObservableValue<? extends Person> observable, Person oldValue, Person newValue) {
+                System.out.println(newValue.getVorname() + " " + newValue.getNachname() + " " +
+                        newValue.getGebdatum().format(DateTimeFormatter.ofPattern("dd.MM.yyyy")));
+            }
+        });
+
+        lvPerson.setCellFactory(param -> {
+            TextFieldListCell<Person> cell = new TextFieldListCell<>(new StringConverter<Person>() {
+
+                @Override
+                public Person fromString(String string) {
+                    // TODO Auto-generated method stub
+                    return null;
+                }
+
+                @Override
+                public String toString(Person object) {
+                    return object.getPersnr() + " " + object.getVorname() + " " + object.getNachname();
+                }
+            });
+            return cell;
         });
 
         // Alternative zu der onAction Methode

@@ -14,10 +14,8 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 /**
- * Controllerklasse 2
- *
- * @author Adrian Weidig
- * @since 28.03.2023
+ * since: 29.03.2023
+ * author: ML Dozent Armenti
  */
 public class FXController_2 {
     /***********************/
@@ -81,7 +79,7 @@ public class FXController_2 {
     void btnAusgabe_Click(ActionEvent event) {
         // Ausgbae in einer MessageBox
         // 1. MessageBox aus Java Swing
-    	JOptionPane.showMessageDialog(null, lblAusgabe.getText());
+        JOptionPane.showMessageDialog(null, lblAusgabe.getText());
 
         // 2. Ausgabe über die Alert Klasse
         Alert alert = new Alert(AlertType.INFORMATION);

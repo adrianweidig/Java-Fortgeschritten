@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="Internal fixes">
+      <change afterPath="$PROJECT_DIR$/Dokumente/Übung FX2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/EinfacheKomponenten_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/EinfacheKomponenten.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/EinfacheKomponentenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX2_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/Uebung_FX2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/FocusImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX2_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d74b5b0-0a58-4a1b-8d23-d36240259bad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2d74b5b0-0a58-4a1b-8d23-d36240259bad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f9e99c7-4ab0-4520-8237-a1c1214e8e5b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2f9e99c7-4ab0-4520-8237-a1c1214e8e5b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5d89ae6-8526-444d-9278-a63af85ac606.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5d89ae6-8526-444d-9278-a63af85ac606.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX1_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX1_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/Uebung_FX1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/FXML/Uebung_FX1.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX1_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX1_Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vorlagen/JFX_Main_Vorlage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vorlagen/JFX_Main_Vorlage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,16 +30,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="CSS File" />
+        <option value="package-info" />
         <option value="JavaFXApplication" />
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="CSS File" />
-        <option value="package-info" />
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="2NGmrArowV7Riix5bHVqKi2KVKM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -46,6 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8 (2)",
     "last_opened_file_path": "E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps",
     "list.type.of.created.stylesheet": "CSS",
@@ -54,10 +74,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -90,12 +110,15 @@
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JDBC\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="KIT_Einheiten.uebungen.JavaFX_Uebungen.Klassen" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="KIT_Einheiten.Multithreading.Klassen" />
       <recent name="KIT_Einheiten.bank.klassen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Uebung_FX1_Main">
+  <component name="RunManager" selected="Application.EinfacheKomponenten_Main">
     <configuration name="Bindings_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Binding.Bindings_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
@@ -109,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FXApp_5_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.JavaFX.Apps.FXApp_5_Main" />
+    <configuration name="EinfacheKomponenten_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.JavaFX.Apps.EinfacheKomponenten_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
@@ -135,19 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Layouts_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.JavaFX.Apps.Layouts_Main" />
-      <module name="Java_Kit_Fortgeschritten_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.JavaFX.Apps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Uebung_FX1_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.Uebung_FX1_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
@@ -161,13 +171,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Uebung_FX2_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.Uebung_FX2_Main" />
+      <module name="Java_Kit_Fortgeschritten_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EinfacheKomponenten_Main" />
+        <item itemvalue="Application.Uebung_FX2_Main" />
         <item itemvalue="Application.Uebung_FX1_Main" />
         <item itemvalue="Application.KIT_Einheiten.JavaFX.Apps.Bindings_Main" />
         <item itemvalue="Application.Bindings_Main" />
-        <item itemvalue="Application.Layouts_Main" />
-        <item itemvalue="Application.FXApp_5_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +212,8 @@
       <workItem from="1679921619352" duration="3811000" />
       <workItem from="1679925503699" duration="661000" />
       <workItem from="1679981423939" duration="13903000" />
+      <workItem from="1680071644628" duration="23000" />
+      <workItem from="1680071739495" duration="8825000" />
     </task>
     <task id="LOCAL-00001" summary="Internal fixes">
       <created>1679921727225</created>

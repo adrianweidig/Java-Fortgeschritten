@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="373.0" prefWidth="510.0" stylesheets="@../resources/light.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="KIT_Einheiten.uebungen.JavaFX_Uebungen.Klassen.Uebung_FX2_Controller">
+    <children>
+        <HBox minHeight="-Infinity" prefWidth="485.0" stylesheets="@../resources/light.css">
+            <children>
+                <VBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="178.0" stylesheets="@../resources/light.css">
+                    <children>
+                  <Label contentDisplay="CENTER" graphicTextGap="5.0" stylesheets="@../resources/light.css" text="Länderkennung">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="12.0" right="5.0" top="12.0" />
+                     </VBox.margin>
+                  </Label>
+                        <Label contentDisplay="CENTER" graphicTextGap="5.0" stylesheets="@../resources/light.css" text="Kontonummer">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets bottom="12.0" right="5.0" top="12.0" />
+                            </VBox.margin>
+                            <padding>
+                                <Insets bottom="5.0" top="5.0" />
+                            </padding>
+                        </Label>
+                        <Label contentDisplay="CENTER" graphicTextGap="5.0" stylesheets="@../resources/light.css" text="Bankleitzahl">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets bottom="12.0" right="5.0" top="10.0" />
+                            </VBox.margin>
+                            <padding>
+                                <Insets bottom="5.0" top="5.0" />
+                            </padding>
+                        </Label>
+                    </children>
+                </VBox>
+                <VBox alignment="TOP_CENTER" prefWidth="325.0" stylesheets="@../resources/light.css">
+                    <children>
+                  <TextField fx:id="fx_land_input" maxWidth="302.0" promptText="Geben sie ihre Länderungkennung (z.B. DE) ein." stylesheets="@../resources/light.css">
+                     <padding>
+                        <Insets bottom="7.0" left="5.0" right="40.0" top="7.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="19.0" right="5.0" top="17.0" />
+                     </VBox.margin>
+                  </TextField>
+                        <TextField fx:id="fx_ktnr_input" promptText="Geben Sie ihre Kontonummer ein." stylesheets="@../resources/light.css">
+                            <VBox.margin>
+                                <Insets bottom="19.0" left="5.0" right="5.0" top="17.0" />
+                            </VBox.margin>
+                            <padding>
+                                <Insets bottom="7.0" left="5.0" right="40.0" top="7.0" />
+                            </padding>
+                        </TextField>
+                        <TextField fx:id="fx_blz_input" promptText="Geben Sie ihre Bankleitzahl ein." stylesheets="@../resources/light.css">
+                            <VBox.margin>
+                                <Insets bottom="19.0" left="5.0" right="5.0" top="13.0" />
+                            </VBox.margin>
+                            <padding>
+                                <Insets bottom="7.0" left="5.0" right="40.0" top="7.0" />
+                            </padding>
+                        </TextField>
+                    </children>
+                </VBox>
+            </children>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+        </HBox>
+      <Label fx:id="fx_lbl_ausgabe" alignment="CENTER" graphicTextGap="10.0" prefHeight="73.0" prefWidth="400.0" textAlignment="CENTER" wrapText="true">
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </Label>
+        <Button fx:id="fx_btn_ibanausgabe" alignment="CENTER" mnemonicParsing="false" onAction="#fx_on_ibanausgabe_click" stylesheets="@../resources/light.css" text="IBAN-Ausgabe" textAlignment="CENTER">
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" />
+            </VBox.margin>
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Button>
+    </children>
+</VBox>

@@ -49,6 +49,12 @@ public class Uebung_FX1_Controller {
         // Gibt grundsätzlich den genutzten Speicherort aus
         System.out.println("Location: " + this.location);
 
+        fx_vorname_input.focusedProperty().addListener(new FocusImpl<>(fx_vorname_input));
+        fx_name_input.focusedProperty().addListener(new FocusImpl<>(fx_name_input));
+        fx_strasse_input.focusedProperty().addListener(new FocusImpl<>(fx_strasse_input));
+        fx_plz_input.focusedProperty().addListener(new FocusImpl<>(fx_plz_input));
+        fx_ort_input.focusedProperty().addListener(new FocusImpl<>(fx_ort_input));
+
         assert fx_name_input != null : "fx:id=\"fx_name_input\" was not injected: check your FXML file 'Uebung_FX1.fxml'.";
         assert fx_vorname_input != null : "fx:id=\"fx_vorname_input\" was not injected: check your FXML file 'Uebung_FX1.fxml'.";
         assert fx_strasse_input != null : "fx:id=\"fx_strasse_input\" was not injected: check your FXML file 'Uebung_FX1.fxml'.";

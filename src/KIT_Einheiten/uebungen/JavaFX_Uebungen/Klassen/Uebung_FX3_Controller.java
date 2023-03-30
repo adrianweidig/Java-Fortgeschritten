@@ -60,6 +60,8 @@ public class Uebung_FX3_Controller {
         this.tvBaum.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             if (!newValue.isLeaf()) {
                 this.fx_path_area.setText(newValue.getValue().getAbsolutePath());
+            } else {
+                this.fx_path_area.setText("");
             }
         });
     }

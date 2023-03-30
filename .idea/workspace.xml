@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="Internal fixes">
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/foldericon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dokumente/Übungen FXBank.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/TableView_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/TableView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/TableViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/FXBank_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/FXML/Bank.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/FXBank_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d74b5b0-0a58-4a1b-8d23-d36240259bad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2d74b5b0-0a58-4a1b-8d23-d36240259bad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f9e99c7-4ab0-4520-8237-a1c1214e8e5b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2f9e99c7-4ab0-4520-8237-a1c1214e8e5b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5d89ae6-8526-444d-9278-a63af85ac606.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5d89ae6-8526-444d-9278-a63af85ac606.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppDatenbankLaden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppDatenbankLaden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DatenbankEingabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DatenbankEingabe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bank.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bank.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bankdaten.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bankdaten.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX3_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX3_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX3_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX3_Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/resources/treeview.tv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +33,10 @@
       <list>
         <option value="Interface" />
         <option value="package-info" />
-        <option value="JavaFXApplication" />
-        <option value="FxmlFile" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -56,6 +68,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "1.8 (2)",
     "last_opened_file_path": "E:/Programmierung/Java/Kit_Fortgeschritten_1/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps",
     "list.type.of.created.stylesheet": "CSS",
@@ -94,8 +107,8 @@
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\uebungen\JavaFX_Uebungen\resources" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\uebungen\JavaFX_Uebungen\resources" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\Apps" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\Klassen" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
@@ -108,13 +121,13 @@
       <recent name="KIT_Einheiten.bank.klassen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Uebung_FX3_Main">
-    <configuration name="TreeView_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.JavaFX.Apps.TreeView_Main" />
+  <component name="RunManager" selected="Application.FXBank_Main">
+    <configuration name="AppBankDatei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.applikationen.AppBankDatei" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.JavaFX.Apps.*" />
+          <option name="PATTERN" value="KIT_Einheiten.applikationen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uebung_FX3_Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.Uebung_FX3_Main" />
+    <configuration name="AppDatenbankLaden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.applikationen.AppDatenbankLaden" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.*" />
+          <option name="PATTERN" value="KIT_Einheiten.applikationen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uebung_FX3_Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.Uebung_FX3_Main" />
+    <configuration name="Eigene_Lerneinheiten.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eigene_Lerneinheiten.Test" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.*" />
+          <option name="PATTERN" value="Eigene_Lerneinheiten.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uebung_FX3_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.Uebung_FX3_Main" />
+    <configuration name="FXBank_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.applikationen.FXBank_Main" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.*" />
+          <option name="PATTERN" value="KIT_Einheiten.applikationen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.test" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KIT_Einheiten.applikationen.main" />
       <module name="Java_Kit_Fortgeschritten_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps.*" />
+          <option name="PATTERN" value="KIT_Einheiten.applikationen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Uebung_FX3_Main" />
-        <item itemvalue="Application.TreeView_Main" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Uebung_FX3_Main (3)" />
-        <item itemvalue="Application.Uebung_FX3_Main (2)" />
+        <item itemvalue="Application.FXBank_Main" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.AppDatenbankLaden" />
+        <item itemvalue="Application.AppBankDatei" />
+        <item itemvalue="Application.Eigene_Lerneinheiten.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +217,7 @@
       <workItem from="1679981423939" duration="13903000" />
       <workItem from="1680071644628" duration="23000" />
       <workItem from="1680071739495" duration="19140000" />
+      <workItem from="1680154747501" duration="23938000" />
     </task>
     <task id="LOCAL-00001" summary="Internal fixes">
       <created>1679921727225</created>

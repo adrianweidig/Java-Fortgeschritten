@@ -23,13 +23,18 @@ import java.util.Locale;
  */
 public class AppDatenbankLaden {
     public static void main(String[] args) {
+        datenbankInitialisieren();
+        /****************************************************/
+        ausgabe();
+    }
+
+    public static void datenbankInitialisieren() {
         try {
             // Datumsformatierung
             SimpleDateFormat formatter = new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN);
 
             // Ein- und Ausgabeobjekte
             IEingabe eingabe_bankdaten = new DateiEingabe();
-            IAusgabe ausgabe_bankdaten = new KonsolenAusgabe();
 
             // Resultate der Textdatei
             HashMap<Integer, KontoStamm> konten = eingabe_bankdaten.konten();
@@ -99,10 +104,11 @@ public class AppDatenbankLaden {
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
         }
+    }
 
-        /****************************************************/
+    private static void ausgabe() {
         DatenbankEingabe db_eingabe = new DatenbankEingabe();
-        KonsolenAusgabe ausgabe = new KonsolenAusgabe();
+        IAusgabe ausgabe = new KonsolenAusgabe();
 
         HashMap<Integer, KontoStamm> verarbeitete_konten = db_eingabe.konten();
 
@@ -115,6 +121,7 @@ public class AppDatenbankLaden {
 
             if (fehler.isEmpty()) {
                 konto.updateSaldo(buchung);
+                db_eingabe.saldoVerbuchen(buchung);
             } else {
                 ausgabe.fehler(konto, buchung, fehler);
             }

@@ -179,6 +179,27 @@ public class DatenbankEingabe implements IEingabe {
 
         return konten;
     }
+
+    public ArrayList<String> getTables() {
+        ArrayList<String> tabellen = new ArrayList<>();
+        String sql = "SELECT\n name\n FROM\n sqlite_master\n WHERE\n type ='table' AND\n name NOT LIKE 'sqlite_%'\n AND name NOT LIKE 'KontoStamm';";
+
+        ResultSet result = datenbank.lesen(sql);
+        try {
+            while (result.next()) {
+                tabellen.add(result.getString("name"));
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return tabellen;
+    }
+
+    public void saldoVerbuchen(Buchung buchung) {
+        String sql = "UPDATE KontoStamm SET Saldo=Saldo+" + buchung.getBetrag() + " WHERE Kontonummer=" + buchung.getKontonummer();
+        datenbank.befehl(sql);
+    }
     /***********************/
     /** Getter und Setter **/
     /***********************/

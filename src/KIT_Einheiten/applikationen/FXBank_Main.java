@@ -1,6 +1,6 @@
-package KIT_Einheiten.uebungen.JavaFX_Uebungen.Apps;
+package KIT_Einheiten.applikationen;
 
-import KIT_Einheiten.uebungen.JavaFX_Uebungen.Klassen.Uebung_FX3_Controller;
+import KIT_Einheiten.bank.klassen.FXBank_Controller;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,12 +10,12 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * JavaFX Startklasse zur Übung 3
+ * JavaFX Startklasse
  *
  * @author Adrian Weidig
- * @since 29.03.2023
+ * @since 30.03.2023
  */
-public class Uebung_FX3_Main extends Application {
+public class FXBank_Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
@@ -23,23 +23,22 @@ public class Uebung_FX3_Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        primaryStage.setTitle("Verzeichnis anzeigen");
+        primaryStage.setTitle("Bankverwaltung");
+        // primaryStage.getIcons().add(new Image("PFAD ZUM FENSTER ICON"));
 
-        // Größe veränderbar? Grundsätzlich nicht außer es ist responsiv.
-        primaryStage.setResizable(false);
+        // Größer veränderbar? Grundsätzlich nicht außer es ist responsiv.
+        //primaryStage.setResizable(false);
 
-        FXMLLoader loader = new FXMLLoader(this.getClass().getResource("..\\FXML\\Uebung_FX3.fxml"));
+        FXMLLoader loader = new FXMLLoader(this.getClass().getResource("..\\bank\\FXML\\Bank.fxml"));
         Parent fxmlScene = loader.load();
 
         // Auskommentieren und Objekt des benannten Controllers erzeugen
-        Uebung_FX3_Controller controller = loader.getController();
+        FXBank_Controller controller = loader.getController();
 
         // Scene und Stage getrennt, falls man spezielle Anpassungen vornehmen will.
         Scene scene = new Scene(fxmlScene);
         primaryStage.setScene(scene);
         primaryStage.show();
-
-        controller.afterWindowBuildInit();
     }
 }
 

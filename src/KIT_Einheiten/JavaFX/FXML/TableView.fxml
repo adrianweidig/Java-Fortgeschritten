@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="388.0" prefWidth="493.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+            fx:controller="KIT_Einheiten.JavaFX.Klassen.TableViewController">
+
+    <children>
+        <TableView fx:id="tblPersonen" layoutX="62.0" layoutY="49.0" prefHeight="200.0" prefWidth="373.0">
+            <columns>
+                <TableColumn fx:id="tcPersNr" prefWidth="75.0" text="PersNr"/>
+                <TableColumn fx:id="tcVorname" prefWidth="107.0" text="Vorname"/>
+                <TableColumn fx:id="tcNachname" prefWidth="84.0" text="Nachname"/>
+                <TableColumn fx:id="tcGebDatum" prefWidth="102.0" text="GebDatum"/>
+            </columns>
+        </TableView>
+        <Button fx:id="btnAnzeigen" layoutX="62.0" layoutY="301.0" mnemonicParsing="false" onAction="#btnAnzeigen_Click"
+                text="Daten anzeigen"/>
+    </children>
+
+</AnchorPane>

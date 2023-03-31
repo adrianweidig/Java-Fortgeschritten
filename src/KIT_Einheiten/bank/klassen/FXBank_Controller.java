@@ -14,9 +14,9 @@ import java.util.HashMap;
 import java.util.Locale;
 
 /**
- * JavaFX Controller für Bankprojekt.<br />
+ * JavaFX Controller für Bankprojekt.<br>
  * <p>
- * HINWEIS:<br />
+ * HINWEIS:<br>
  * Es wurde absichtlich einiges an Funktionalität hier im Controller
  * belassen, welches eigentlich in Klassen etc. ausgelagert werden
  * sollte. Dies wurde bewusst gemacht, um Übersichtlichkeit durch
@@ -54,11 +54,11 @@ public class FXBank_Controller {
     /***********************/
 
     /**
-     * Initialisiert den Controller und den "Beginn" des Lebenszyklus der FXML App. <br />
-     * Hier wird: <br />
-     * 1. Die Datenbank neu aufgebaut <br />
-     * 2. Alle Tabs erzeugt <br />
-     * 3. Alle Tabs befüllt <br />
+     * Initialisiert den Controller und den "Beginn" des Lebenszyklus der FXML App. <br>
+     * Hier wird: <br>
+     * 1. Die Datenbank neu aufgebaut <br>
+     * 2. Alle Tabs erzeugt <br>
+     * 3. Alle Tabs befüllt <br>
      */
     @FXML
     void initialize() {
@@ -369,7 +369,10 @@ public class FXBank_Controller {
 
     @FXML
     void on_booking(ActionEvent event) {
-
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Ausgabe der Daten");
+        alert.setHeaderText("");
+        alert.showAndWait();
     }
 
     @FXML

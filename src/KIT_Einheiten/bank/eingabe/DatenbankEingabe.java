@@ -200,6 +200,10 @@ public class DatenbankEingabe implements IEingabe {
         String sql = "UPDATE KontoStamm SET Saldo=Saldo+" + buchung.getBetrag() + " WHERE Kontonummer=" + buchung.getKontonummer();
         datenbank.befehl(sql);
     }
+
+    public void addAccount() {
+
+    }
     /***********************/
     /** Getter und Setter **/
     /***********************/

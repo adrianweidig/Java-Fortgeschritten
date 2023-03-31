@@ -8,15 +8,19 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
 
-import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Locale;
-import java.util.ResourceBundle;
 
 /**
- * JavaFX Controller Vorlage
+ * JavaFX Controller für Bankprojekt.<br />
+ * <p>
+ * HINWEIS:<br />
+ * Es wurde absichtlich einiges an Funktionalität hier im Controller
+ * belassen, welches eigentlich in Klassen etc. ausgelagert werden
+ * sollte. Dies wurde bewusst gemacht, um Übersichtlichkeit durch
+ * Beisammen lassen zu bewerkstelligen.
  *
  * @author Adrian Weidig
  * @since 30.03.2023
@@ -25,30 +29,22 @@ public class FXBank_Controller {
     /***********************/
     /*** FXML Attribute ****/
     /***********************/
-    @FXML
-    private ResourceBundle resources;
-
-    @FXML
-    private URL location;
 
     @FXML
     private TabPane fx_center_tabpane;
 
     @FXML
-    private Menu fx_menu;
-
-    @FXML
-    private MenuItem fx_menuitem_syncDB, fx_menuitem_leave;
+    private TextArea fx_error_area;
 
     /***********************/
     /****** Attribute ******/
     /***********************/
     private DatenbankEingabe db_eingabe = new DatenbankEingabe();
 
-    private HashMap<Integer, KontoStamm> verarbeitete_konten = db_eingabe.konten();
-    private ArrayList<Buchung> buchungen = db_eingabe.buchungen();
+    private HashMap<Integer, KontoStamm> verarbeitete_konten;
+    private ArrayList<Buchung> buchungen;
 
-    private ArrayList<String> tabellen = db_eingabe.getTables();
+    private ArrayList<String> tabellen;
 
     private SimpleDateFormat formatter = new SimpleDateFormat("dd.MM.yyyy", Locale.GERMAN);
 
@@ -58,43 +54,64 @@ public class FXBank_Controller {
     /***********************/
 
     /**
-     * Initialisiert den Controller und den "Beginn" des Lebenszyklus der FXML App.
+     * Initialisiert den Controller und den "Beginn" des Lebenszyklus der FXML App. <br />
+     * Hier wird: <br />
+     * 1. Die Datenbank neu aufgebaut <br />
+     * 2. Alle Tabs erzeugt <br />
+     * 3. Alle Tabs befüllt <br />
      */
     @FXML
     void initialize() {
-        // Gibt grundsätzlich den genutzten Speicherort aus
-        System.out.println("Location: " + this.location);
         AppDatenbankLaden.datenbankInitialisieren();
+
+        this.readDB();
         this.buildTabs();
-        this.fillTabs();
+        this.fillPaymentTabs();
+        this.executePayments();
+        this.fillAccountTabs();
     }
 
     /***********************/
     /****** Methoden *******/
     /***********************/
 
+    /**
+     * Liest die Datenbank neu aus
+     */
     private void readDB() {
         this.verarbeitete_konten = db_eingabe.konten();
         this.buchungen = db_eingabe.buchungen();
         this.tabellen = db_eingabe.getTables();
     }
 
-    private Tab getTabByName(String name) {
-        Tab returnTab = null;
+    /**
+     * Führt alle Buchungen aus und prüft, ob diese
+     * so verbucht werden können.
+     */
+    private void executePayments() {
+        for (Buchung buchung : this.buchungen) {
+            KontoStamm konto = this.verarbeitete_konten.get(buchung.getKontonummer());
+            String fehler = konto.buchungspruefung(buchung);
 
-        // Safety first und so
-        if (this.fx_center_tabpane != null && !this.fx_center_tabpane.getTabs().isEmpty()) {
-            for (int i = 0; i < this.fx_center_tabpane.getTabs().size(); i++) {
-                Tab tmpTab = this.fx_center_tabpane.getTabs().get(i);
-                if (tmpTab.getText().equalsIgnoreCase(name)) {
-                    returnTab = tmpTab;
-                }
+            if (fehler.isEmpty()) {
+                konto.updateSaldo(buchung);
+                this.db_eingabe.saldoVerbuchen(buchung);
+            } else {
+                String ausgabe = "Buchung in Höhe " + buchung.getBetrag() + " für das Konto " + konto.getKontonummer() + " ( " + konto.getClass().getSimpleName() + " ) konnte nicht durchgeführt werden!\n" + fehler;
+                this.fx_error_area.setText(this.fx_error_area.getText() + ausgabe);
             }
         }
-
-        return returnTab;
     }
 
+
+    /**
+     * Sollte in Accountklasse ausgelagert werden.
+     * Bleibt jedoch aus Gründen der zusammengelegten Erklärung
+     * in dieser Klasse.
+     *
+     * @param konto Das zu konvertierende Konto
+     * @return das konvertierte Konto als HashMap
+     */
     private HashMap<String, String> convertAccountToHashMap(KontoStamm konto) {
         HashMap<String, String> accountMap = new HashMap<>();
         String kontoart = konto.getClass().getSimpleName().toLowerCase();
@@ -125,13 +142,39 @@ public class FXBank_Controller {
 
     }
 
+    /**
+     * Sucht anhand eines Strings nach dem entsprechenden Tab
+     *
+     * @param name Gesuchter Name des Tabs
+     * @return den gefundenen Tab, may be null.
+     */
+    private Tab getTabByName(String name) {
+        Tab returnTab = null;
+
+        // Safety first und so
+        if (this.fx_center_tabpane != null && !this.fx_center_tabpane.getTabs().isEmpty()) {
+            for (int i = 0; i < this.fx_center_tabpane.getTabs().size(); i++) {
+                Tab tmpTab = this.fx_center_tabpane.getTabs().get(i);
+                if (tmpTab.getText().equalsIgnoreCase(name)) {
+                    returnTab = tmpTab;
+                }
+            }
+        }
+
+        return returnTab;
+    }
+
+    /**
+     * Erzeugt abhängig von den vorhandenen Tabellen in der
+     * Datenbank die zugehörigen Tabs im TabPane.
+     */
     private void buildTabs() {
         for (String tabelle : this.tabellen) {
             Tab newTab = new Tab(tabelle);
 
             if (tabelle.equals("Buchung")) {
                 tabelle += "en";
-                newTab.setContent(buildPayments());
+                newTab.setContent(buildPaymentsTableView());
             } else {
                 TreeTableView<HashMap<String, String>> accountTreeTableview = buildAccountTreeTableView(tabelle);
                 newTab.setContent(accountTreeTableview);
@@ -142,23 +185,24 @@ public class FXBank_Controller {
         }
     }
 
-    private void fillTabs() {
+    /**
+     * Befüllt den Buchungen Tab.
+     */
+    private void fillPaymentTabs() {
         for (Buchung buchung : buchungen) {
             Tab buchungsTab = getTabByName("Buchung");
             TableView<Buchung> buchungTableView = (TableView<Buchung>) buchungsTab.getContent();
             buchungTableView.getItems().add(buchung);
-
-            KontoStamm konto = verarbeitete_konten.get(buchung.getKontonummer());
-            String fehler = konto.buchungspruefung(buchung);
-
-            if (fehler.isEmpty()) {
-                konto.updateSaldo(buchung);
-                db_eingabe.saldoVerbuchen(buchung);
-            } else {
-                // TODO: FEHLER AUSGABE
-            }
         }
+    }
 
+    /**
+     * Befüllt die Account-Tabs.
+     * HINWEIS: Es ist wichtig vorher die aktuell hinzugefügten
+     * Buchungen mittels executePayments() zu verbuchen, da ansonsten
+     * die Buchungen nicht den Accounts zugeordnet werden.
+     */
+    private void fillAccountTabs() {
         for (KontoStamm konto : verarbeitete_konten.values()) {
             String kontoname = konto.getClass().getSimpleName();
             Tab kontoTab = getTabByName(kontoname);
@@ -190,12 +234,19 @@ public class FXBank_Controller {
 
             treeTableView.getRoot().getChildren().add(acountItem);
         }
+
     }
 
-    private TableView<Buchung> buildPayments() {
+    /**
+     * Baut zu den Buchungen die entsprechende TableView.
+     *
+     * @return Fertig erzeugte TableView.
+     */
+    private TableView<Buchung> buildPaymentsTableView() {
         TableView<Buchung> tableView = new TableView<>();
         tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
         tableView.setStyle("-fx-alignment: CENTER;");
+        tableView.setFixedCellSize(25);
 
         TableColumn<Buchung, String> spalte_kontonummer = new TableColumn<>("Konto\n  Nr.");
         spalte_kontonummer.setStyle("-fx-alignment: CENTER-RIGHT;");
@@ -215,11 +266,17 @@ public class FXBank_Controller {
 
     }
 
+    /**
+     * Erzeugt abhängig vom übergebenen Namen die entsprechende TreeTableView.
+     *
+     * @param name z.B. Kontoname
+     * @return fertig erzeugte TreeTableView
+     */
     public TreeTableView<HashMap<String, String>> buildAccountTreeTableView(String name) {
-        System.out.println(name);
         TreeTableView<HashMap<String, String>> treeTableView = new TreeTableView<>();
         treeTableView.setColumnResizePolicy(TreeTableView.CONSTRAINED_RESIZE_POLICY);
         treeTableView.setStyle("-fx-alignment: CENTER;");
+        treeTableView.setFixedCellSize(25);
 
 
         // Standard-Spalten, welche jedes Konto hat
@@ -277,24 +334,52 @@ public class FXBank_Controller {
         return treeTableView;
     }
 
+
     /***********************/
     /*** Control Methoden **/
     /** (z.B.ButtonClicks) */
     /***********************/
 
+    /**
+     * Lädt bei einem Klick auf das entsprechende Menü Item alle Tabs aus der Datenbank neu.
+     *
+     * @param event Auslöseevent
+     */
     @FXML
     private void on_db_sync_click(ActionEvent event) {
         AppDatenbankLaden.datenbankInitialisieren();
         this.fx_center_tabpane.getTabs().removeAll(this.fx_center_tabpane.getTabs());
         this.readDB();
         this.buildTabs();
-        this.fillTabs();
+        this.fillPaymentTabs();
+        this.executePayments();
+        this.fillAccountTabs();
     }
 
+    /**
+     * Schließt das Fenster
+     *
+     * @param event Auslöseevent
+     */
     @FXML
     private void on_leave_click(ActionEvent event) {
         Stage s = (Stage) this.fx_center_tabpane.getScene().getWindow();
         s.close();
+    }
+
+    @FXML
+    void on_booking(ActionEvent event) {
+
+    }
+
+    @FXML
+    void on_account_add(ActionEvent event) {
+
+    }
+
+    @FXML
+    void on_account_remove(ActionEvent event) {
+
     }
 
     /***********************/

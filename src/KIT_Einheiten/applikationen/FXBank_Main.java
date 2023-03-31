@@ -5,6 +5,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -24,10 +25,10 @@ public class FXBank_Main extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         primaryStage.setTitle("Bankverwaltung");
-        // primaryStage.getIcons().add(new Image("PFAD ZUM FENSTER ICON"));
+        primaryStage.getIcons().add(new Image(String.valueOf(this.getClass().getResource("..\\bank\\resources\\bank-flat.png"))));
 
         // Größer veränderbar? Grundsätzlich nicht außer es ist responsiv.
-        //primaryStage.setResizable(false);
+        primaryStage.setResizable(false);
 
         FXMLLoader loader = new FXMLLoader(this.getClass().getResource("..\\bank\\FXML\\Bank.fxml"));
         Parent fxmlScene = loader.load();

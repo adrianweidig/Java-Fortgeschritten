@@ -4,6 +4,8 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TitledPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
@@ -16,15 +18,29 @@
             <top>
                 <MenuBar BorderPane.alignment="CENTER">
                     <menus>
-                        <Menu fx:id="fx_menu" mnemonicParsing="false" text="Menü">
+                        <Menu mnemonicParsing="false" text="Menü">
                             <items>
-                                <MenuItem fx:id="fx_menuitem_syncDB" mnemonicParsing="false" onAction="#on_db_sync_click" text="Datenbank synchronisieren" />
-                                <MenuItem fx:id="fx_menuitem_leave" mnemonicParsing="false" onAction="#on_leave_click" text="Verlassen" />
+                                <MenuItem mnemonicParsing="false" onAction="#on_db_sync_click" text="Datenbank synchronisieren" />
+                                <MenuItem mnemonicParsing="false" onAction="#on_leave_click" text="Verlassen" />
                             </items>
                         </Menu>
+                  <Menu mnemonicParsing="false" text="Aktionen">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#on_account_add" text="Konto hinzufügen" />
+                        <MenuItem mnemonicParsing="false" onAction="#on_account_remove" text="Konto entfernen" />
+                        <MenuItem mnemonicParsing="false" onAction="#on_booking" text="Buchung durchführen" />
+                    </items>
+                  </Menu>
                     </menus>
                 </MenuBar>
             </top>
+         <bottom>
+            <TitledPane text="Error Log" BorderPane.alignment="CENTER">
+               <content>
+                  <TextArea fx:id="fx_error_area" prefHeight="86.0" prefWidth="1103.0" />
+               </content>
+            </TitledPane>
+         </bottom>
         </BorderPane>
     </children>
 </AnchorPane>

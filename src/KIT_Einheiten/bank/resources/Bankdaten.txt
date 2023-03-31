@@ -1,11 +1,31 @@
 NeuesGiroKonto;1;Hugos Girokonto;1000;10.0
-NeuesSparkonto;2;Hugos Sparkonto;0;01.01.2017;5.0
-NeuesDarlehenskonto;3;Hugos Darlehenskonto;300
+NeuesSparkonto;2;Hildas Sparkonto;0;01.01.2017;5.0
+NeuesDarlehenskonto;3;Bernds Darlehenskonto;300
+NeuesDarlehenskonto;4;Hugos Darlehenskonto;200
+NeuesDarlehenskonto;5;Ernsts Darlehenskonto;500
+NeuesDarlehenskonto;6;Hildegards Darlehenskonto;450
+NeuesSparkonto;7;Hildas Sparkonto;0;01.03.2015;5.0
+NeuesSparkonto;8;Sandras Sparkonto;0;01.05.2012;7.0
+NeuesSparkonto;9;Emmas Sparkonto;0;18.01.2022;9.0
+NeuesGiroKonto;10;Franks Girokonto;2000;10.0
+NeuesGiroKonto;11;Dannys Girokonto;500;15.0
+NeuesGiroKonto;12;Taylers Girokonto;200;5.0
 buchung;1;-100
 buchung;1;-1000
 buchung;2;-100
 buchung;2;100
 buchung;3;100
 buchung;3;300
+buchung;4;-100
+buchung;5;500
+buchung;6;-100
+buchung;7;100
+buchung;8;100
+buchung;9;300
+buchung;10;-100
+buchung;11;-1000
+buchung;12;-100
+buchung;12;100
+
 
 

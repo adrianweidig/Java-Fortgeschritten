@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00e1150e-8612-4eae-8750-3553653f555e" name="Changes" comment="Internal fixes">
-      <change afterPath="$PROJECT_DIR$/Dokumente/Übungen FXBank.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Apps/TableView_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/FXML/TableView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/JavaFX/Klassen/TableViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/FXBank_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/FXML/Bank.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/FXBank_Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d74b5b0-0a58-4a1b-8d23-d36240259bad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2d74b5b0-0a58-4a1b-8d23-d36240259bad.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f9e99c7-4ab0-4520-8237-a1c1214e8e5b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2f9e99c7-4ab0-4520-8237-a1c1214e8e5b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5d89ae6-8526-444d-9278-a63af85ac606.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5d89ae6-8526-444d-9278-a63af85ac606.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/bank-flat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppDatenbankLaden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/AppDatenbankLaden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/FXBank_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/applikationen/FXBank_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/FXML/Bank.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/FXML/Bank.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/ausgabe/FXAusgabe.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DatenbankEingabe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/eingabe/DatenbankEingabe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/FXBank_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/klassen/FXBank_Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bank.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bank.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bankdaten.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/bank/resources/Bankdaten.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX3_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Apps/Uebung_FX3_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX3_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KIT_Einheiten/uebungen/JavaFX_Uebungen/Klassen/Uebung_FX3_Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,11 +99,11 @@
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\bank\resources" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\Dokumente" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\uebungen\JavaFX_Uebungen\resources" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\Apps" />
       <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\Klassen" />
-      <recent name="E:\Programmierung\Java\Kit_Fortgeschritten_1\src\KIT_Einheiten\JavaFX\FXML" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="KIT_Einheiten.uebungen.JavaFX_Uebungen.Klassen" />
@@ -190,8 +182,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FXBank_Main" />
-        <item itemvalue="Application.main" />
         <item itemvalue="Application.AppDatenbankLaden" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.AppBankDatei" />
         <item itemvalue="Application.Eigene_Lerneinheiten.Test" />
       </list>
@@ -217,7 +209,7 @@
       <workItem from="1679981423939" duration="13903000" />
       <workItem from="1680071644628" duration="23000" />
       <workItem from="1680071739495" duration="19140000" />
-      <workItem from="1680154747501" duration="23938000" />
+      <workItem from="1680154747501" duration="29732000" />
     </task>
     <task id="LOCAL-00001" summary="Internal fixes">
       <created>1679921727225</created>

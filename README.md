@@ -3,7 +3,7 @@
 ## [Online-Dokumentation](https://adrianweidig.github.io/Kit_Fortgeschritten_1/docs/)
 
 ## Beschreibung
-Kit / ML Gruppe Lehrgang Java Fortgeschritten 1<br>
+Lehrgang Java Fortgeschritten 1<br>
 Git-Repo dient zum Abgleich eigener Lösungen und zukünftiger Wiederholung und persönlicher Retrospektive.
 
 ## Genutzte Java Version: JDK 1.8011 

@@ -1,5 +1,8 @@
 # Java_Kit_Fortgeschritten_1
 
+> ab 21.11.2023 keine Änderungen mehr - aktueller Freeze-Zustand und keine weitere Bearbeitung
+
+
 ## [Online-Dokumentation](https://adrianweidig.github.io/Kit_Fortgeschritten_1/docs/)
 
 ## Beschreibung
